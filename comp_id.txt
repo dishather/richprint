@@ -1,0 +1,218 @@
+# Format is:
+# <comp.id> Description
+
+# I use the following extra marks in description:
+# [ C ] - obj file produced by C compiler
+# [C++] - obj file produced by C++ compiler
+# [RES] - obj file produced by CVTRES converter
+# [IMP] - DLL import record in library file
+# [EXP] - DLL export record in library file
+# [ASM] - obj file produced by assembler
+
+# Objects without @comp.id are collected under this record
+00010000 [---] Unmarked objects
+00000000 [---] Unmarked objects (old)
+
+# RTM version number: 18.0.21005.1
+# Update 2 version number: 18.00.30501
+# Update 3 version number: 18.00.30723
+# Update 4 version number: 18.00.31101
+
+# MSVS2013 12.0.40629.00 Update 5
+00e09eb5 [ C ] VS2013 UPD5 build 40629
+00e19eb5 [C++] VS2013 UPD5 build 40629
+# cvtres not updated since RTM version
+00de9eb5 [LNK] VS2013 UPD5 build 40629
+00dc9eb5 [EXP] VS2013 UPD5 build 40629
+00dd9eb5 [IMP] VS2013 UPD5 build 40629
+00df9eb5 [ASM] VS2013 UPD5 build 40629
+
+# MSVS2013 12.0.31101.00 Update 4 - not attested in real world, @comp.id is
+# calculated.
+00e0797d [ C ] VS2013 UPD4 build 31101
+00e1797d [C++] VS2013 UPD4 build 31101
+# cvtres not updated since RTM version
+00de797d [LNK] VS2013 UPD4 build 31101
+00dc797d [EXP] VS2013 UPD4 build 31101
+00dd797d [IMP] VS2013 UPD4 build 31101
+00df797d [ASM] VS2013 UPD4 build 31101
+
+# MSVS2013 12.0.30723.00 Update 3 - not attested in real world, @comp.id is
+# calculated.
+00e07803 [ C ] VS2013 UPD3 build 30723
+00e17803 [C++] VS2013 UPD3 build 30723
+# cvtres not updated since RTM version
+00de7803 [LNK] VS2013 UPD3 build 30723
+00dc7803 [EXP] VS2013 UPD3 build 30723
+00dd7803 [IMP] VS2013 UPD3 build 30723
+00df7803 [ASM] VS2013 UPD3 build 30723
+
+# MSVS2013 12.0.30501.00 Update 2 - not attested in real world, @comp.id is
+# calculated.
+00e07725 [ C ] VS2013 UPD2 build 30501
+00e17725 [C++] VS2013 UPD2 build 30501
+# cvtres not updated since RTM version
+00de7725 [LNK] VS2013 UPD2 build 30501
+00dc7725 [EXP] VS2013 UPD2 build 30501
+00dd7725 [IMP] VS2013 UPD2 build 30501
+00df7725 [ASM] VS2013 UPD2 build 30501
+
+# MSVS2013 RTM
+# Looks like it doesn't always dump linker's comp.id
+00e0520d [ C ] VS2013 build 21005
+00e1520d [C++] VS2013 build 21005
+00db520d [RES] VS2013 build 21005
+00de520d [LNK] VS2013 build 21005
+00dc520d [EXP] VS2013 build 21005
+00dd520d [IMP] VS2013 build 21005
+00df520d [ASM] VS2013 build 21005
+
+# MSVS2012 Premium Update 4 (11.0.61030.00 Update 4)
+00ceee66 [ C ] VS2012 UPD4 build 61030
+00cfee66 [C++] VS2012 UPD4 build 61030
+00cdee66 [ASM] VS2012 UPD4 build 61030
+00c9ee66 [RES] VS2012 UPD4 build 61030
+00ccee66 [LNK] VS2012 UPD4 build 61030
+00caee66 [EXP] VS2012 UPD4 build 61030
+00cbee66 [IMP] VS2012 UPD4 build 61030
+
+# MSVS2012 Update 3 (17.00.60610.1 Update 3) - not attested in real world,
+# @comp.id is calculated.
+00ceecc2 [ C ] VS2012 UPD3 build 60610
+00cfecc2 [C++] VS2012 UPD3 build 60610
+00cdecc2 [ASM] VS2012 UPD3 build 60610
+00c9ecc2 [RES] VS2012 UPD3 build 60610
+00ccecc2 [LNK] VS2012 UPD3 build 60610
+00caecc2 [EXP] VS2012 UPD3 build 60610
+00cbecc2 [IMP] VS2012 UPD3 build 60610
+
+# MSVS2012 Update 2 (17.00.60315.1 Update 2) - not attested in real world,
+# @comp.id is calculated.
+00ceeb9b [ C ] VS2012 UPD2 build 60315
+00cfeb9b [C++] VS2012 UPD2 build 60315
+00cdeb9b [ASM] VS2012 UPD2 build 60315
+00c9eb9b [RES] VS2012 UPD2 build 60315
+00cceb9b [LNK] VS2012 UPD2 build 60315
+00caeb9b [EXP] VS2012 UPD2 build 60315
+00cbeb9b [IMP] VS2012 UPD2 build 60315
+
+# MSVS2012 Update 1 (17.00.51106.1 Update 1) - not attested in real world,
+# @comp.id is calculated.
+00cec7a2 [ C ] VS2012 UPD1 build 51106
+00cfc7a2 [C++] VS2012 UPD1 build 51106
+00cdc7a2 [ASM] VS2012 UPD1 build 51106
+00c9c7a2 [RES] VS2012 UPD1 build 51106
+00ccc7a2 [LNK] VS2012 UPD1 build 51106
+00cac7a2 [EXP] VS2012 UPD1 build 51106
+00cbc7a2 [IMP] VS2012 UPD1 build 51106
+
+# MSVS2012 Premium (11.0.50727.1 RTMREL)
+00cec627 [ C ] VS2012 build 50727
+00cfc627 [C++] VS2012 build 50727
+00c9c627 [RES] VS2012 build 50727
+00cdc627 [ASM] VS2012 build 50727
+00cac627 [EXP] VS2012 build 50727
+00cbc627 [IMP] VS2012 build 50727
+00ccc627 [LNK] VS2012 build 50727
+
+# MSVS2010 SP1 kb 983509 (10.0.40219.1 SP1Rel)
+00aa9d1b [ C ] VS2010 SP1 build 40219
+00ab9d1b [C++] VS2010 SP1 build 40219
+009d9d1b [LNK] VS2010 SP1 build 40219
+009a9d1b [RES] VS2010 SP1 build 40219
+009b9d1b [EXP] VS2010 SP1 build 40219
+009c9d1b [IMP] VS2010 SP1 build 40219
+009e9d1b [ASM] VS2010 SP1 build 40219
+
+# MSVS2010 (10.0.30319.1 RTMRel)
+00aa766f [ C ] VS2010 build 30319
+00ab766f [C++] VS2010 build 30319
+009d766f [LNK] VS2010 build 30319
+009a766f [RES] VS2010 build 30319
+009b766f [EXP] VS2010 build 30319
+009c766f [IMP] VS2010 build 30319
+009e766f [ASM] VS2010 build 30319
+
+# MSVS2008 SP1 (9.0.30729.1 SP)
+00837809 [ C ] VS2008 SP1 build 30729
+00847809 [C++] VS2008 SP1 build 30729
+# cvtres is the same as in VS2008
+00957809 [ASM] VS2008 SP1 build 30729
+00927809 [EXP] VS2008 SP1 build 30729
+00937809 [IMP] VS2008 SP1 build 30729
+00917809 [LNK] VS2008 SP1 build 30729
+
+# MSVS2008 (9.0.21022.8 RTM)
+0083521e [ C ] VS2008 build 21022
+0084521e [C++] VS2008 build 21022
+0091521e [LNK] VS2008 build 21022
+0094521e [RES] VS2008 build 21022
+0092521e [EXP] VS2008 build 21022
+0093521e [IMP] VS2008 build 21022
+0095521e [ASM] VS2008 build 21022
+
+# MSVS2005 (RTM.50727-4200) cl version: 14.00.50727.42
+# MSVS2005-SP1 dumps the same comp.id's.
+# It is strange, but there exists VS2012 with the same build number:
+# 11 Build 50727.1
+006dc627 [ C ] VS2005 build 50727
+006ec627 [C++] VS2005 build 50727
+0078c627 [LNK] VS2005 build 50727
+007cc627 [RES] VS2005 build 50727
+007ac627 [EXP] VS2005 build 50727
+007bc627 [IMP] VS2005 build 50727
+007dc627 [ASM] VS2005 build 50727
+
+# MSVS2003 (.NET) SP1 (kb918007)
+005f178e [ C ] VS2003 (.NET) SP1 build 6030
+0060178e [C++] VS2003 (.NET) SP1 build 6030
+005a178e [LNK] VS2003 (.NET) SP1 build 6030
+000f178e [ASM] VS2003 (.NET) SP1 build 6030
+# cvtres is the same version as without SP1
+005c178e [EXP] VS2003 (.NET) SP1 build 6030
+005d178e [IMP] VS2003 (.NET) SP1 build 6030
+
+# MSVS2003 (.NET) 7.0.1.3088
+005f0c05 [ C ] VS2003 (.NET) build 3077
+00600c05 [C++] VS2003 (.NET) build 3077
+000f0c05 [ASM] VS2003 (.NET) build 3077
+005e0bec [RES] VS2003 (.NET) build 3052
+005c0c05 [EXP] VS2003 (.NET) build 3077
+005d0c05 [IMP] VS2003 (.NET) build 3077
+005a0c05 [LNK] VS2003 (.NET) build 3077
+
+# MSVS2002 (.NET) 7.0.9466
+001c24fa [ C ] VS2002 (.NET) build 9466
+001d24fa [C++] VS2002 (.NET) build 9466
+004024fa [ASM] VS2002 (.NET) build 9466
+003d24fa [LNK] VS2002 (.NET) build 9466
+004524fa [RES] VS2002 (.NET) build 9466
+003f24fa [EXP] VS2002 (.NET) build 9466
+001924fa [IMP] VS2002 (.NET) build 9466
+
+# MSVS98 6.0 SP6 (Enterprise edition)
+# Looks like linker may mix compids for C and C++ objects (why?)
+000a2636 [ C ] VS98 (6.0) SP6 build 8804
+000b2636 [C++] VS98 (6.0) SP6 build 8804
+
+# MSVC++ 6.0 SP5 (Enterprise edition)
+00152306 [ C ] VC++ 6.0 SP5 build 8804
+00162306 [C++] VC++ 6.0 SP5 build 8804
+000420ff [LNK] VC++ 6.0 SP5 imp/exp build 8447
+000606c7 [RES] VS98 (6.0) SP6 cvtres build 1736
+
+# MSVS6.0 (no servicepacks)
+000a1fe8 [ C ] VS98 (6.0) build 8168
+000b1fe8 [C++] VS98 (6.0) build 8168
+000606b8 [RES] VS98 (6.0) cvtres build 1720
+00041fe8 [LNK] VS98 (6.0) imp/exp build 8168
+
+# MSVS97 5.0 Enterprise Edition (cl 11.00.7022, link 5.00.7022)
+# Does NOT generate any @comp.id records, nor Rich headers.
+# SP3 added Rich-generating linker (albeit itr doesn't identify itself),
+# and CVTRES and LIB(?) utilities that generate @comp.id records. There is no
+# distinction between import and export records yet. I marked the records as
+# [IMP] because VS98 linker seems to omit export records from the header; VS97
+# linker might do the same.
+00060684 [RES] VS97 (5.0) SP3 cvtres 5.00.1668
+00021c87 [IMP] VS97 (5.0) SP3 link 5.10.7303
