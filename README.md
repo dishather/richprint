@@ -1,7 +1,7 @@
 # richprint
 Print compiler information stored in Rich Header of PE executables.
 
-# What is that "Rich Header of PE executables"?
+## What is that "Rich Header of PE executables"?
 It's a (usually small) section of binary data created by Microsoft linker.
 The data is located between old MZ header stub (also called DOS stub) and
 PE header. The data is encoded using a simple key, the only readable
@@ -21,7 +21,7 @@ for obvious reasons.
 The format of Rich Header and the gory details of decoding it can be found
 in [the excellent article by Daniel Pistelli.](http://www.ntcore.com/files/richsign.htm)
 
-# So, what does it contain after all?
+## So, what does it contain after all?
 Short and useless answer: the Rich Header contains the list of all @comp.id's
 used to create the executable file, together with their counts.
 
@@ -52,6 +52,6 @@ Long and elaborate answer:
   files supplied by your vendor. Also, records that describe symbols imported
   and exported by DLLs have their distinct @comp.id's.
 
-# How can this information be used?
+## How can this information be used?
 In any way you like. For example, to satisfy you curiosity by inspecting the binaries in your system.
 Also, Rich Headers can allegedly be used in forensics.
