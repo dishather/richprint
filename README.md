@@ -13,7 +13,7 @@ Yet, if the file was created by a non-Microsoft linker, it will not have
 a Rich header.
 
 The official name for this section is not known for sure, most likely it
-is something "build prodid block".
+is something similar to "build prodid block".
 
 The unofficial names for this section are "Rich Header" or "Rich Section",
 for obvious reasons.

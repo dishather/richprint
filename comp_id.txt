@@ -18,6 +18,23 @@
 # Update 3 version number: 18.00.30723
 # Update 4 version number: 18.00.31101
 
+# MSVS Community 2015 UPD3.1 (cl version 19.00.24215.1) - not full yet
+# [ASM] is the same as in UPD3 build 24213
+01045e97 [ C ] VS2015 UPD3.1 build 24215
+01055e97 [C++] VS2015 UPD3.1 build 24215
+01025e97 [LNK] VS2015 UPD3.1 build 24215
+01005e97 [EXP] VS2015 UPD3.1 build 24215
+01015e97 [IMP] VS2015 UPD3.1 build 24215
+
+# MSVS Community 2015 UPD3 (cl version 19.00.24213.1)
+01045e95 [ C ] VS2015 UPD3 build 24213
+01035e92 [ASM] VS2015 UPD3 build 24210
+01055e95 [C++] VS2015 UPD3 build 24213
+00ff5e92 [RES] VS2015 UPD3 build 24210
+01025e95 [LNK] VS2015 UPD3 build 24213
+01005e95 [EXP] VS2015 UPD3 build 24213
+01015e95 [IMP] VS2015 UPD3 build 24213
+
 # MSVS Community 2015 UPD2 (14.0.25123.0?)
 01045d6e [ C ] VS2015 UPD2 build 23918
 01035d6e [ASM] VS2015 UPD2 build 23918
@@ -236,7 +253,7 @@
 
 # MSVS97 5.0 Enterprise Edition (cl 11.00.7022, link 5.00.7022)
 # Does NOT generate any @comp.id records, nor Rich headers.
-# SP3 added Rich-generating linker (albeit itr doesn't identify itself),
+# SP3 added Rich-generating linker (albeit it doesn't identify itself),
 # and CVTRES and LIB(?) utilities that generate @comp.id records. There is no
 # distinction between import and export records yet. I marked the records as
 # [IMP] because VS98 linker seems to omit export records from the header; VS97
