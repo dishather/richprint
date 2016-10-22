@@ -18,7 +18,7 @@
 # Update 3 version number: 18.00.30723
 # Update 4 version number: 18.00.31101
 
-# MSVS Community 2015 UPD3.1 (cl version 19.00.24215.1) - not full yet
+# MSVS Community 2015 UPD3.1 (cl version 19.00.24215.1) - some IDs are interpolated
 # [ASM] is the same as in UPD3 build 24213
 01045e97 [ C ] VS2015 UPD3.1 build 24215
 01055e97 [C++] VS2015 UPD3.1 build 24215
