@@ -18,6 +18,15 @@
 # Update 3 version number: 18.00.30723
 # Update 4 version number: 18.00.31101
 
+# MSVS2017 v15.5.4
+010464ea [ C ] VS2017 v15.5.4 build 25834
+010364ea [ASM] VS2017 v15.5.4 build 25834
+010564ea [C++] VS2017 v15.5.4 build 25834
+00ff64ea [RES] VS2017 v15.5.4 build 25834
+010264ea [LNK] VS2017 v15.5.4 build 25834
+010064ea [EXP] VS2017 v15.5.4 build 25834
+010164ea [IMP] VS2017 v15.5.4 build 25834
+
 # MSVS Community 2015 UPD3.1 (cl version 19.00.24215.1) - some IDs are interpolated
 # [ASM] is the same as in UPD3 build 24213
 01045e97 [ C ] VS2015 UPD3.1 build 24215
