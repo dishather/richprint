@@ -13,6 +13,15 @@
 00010000 [---] Unmarked objects
 00000000 [---] Unmarked objects (old)
 
+# MSVS2019 v16.5.5
+01046fc6 [ C ] VS2019 v16.5.5 build 28614
+01036fc6 [ASM] VS2019 v16.5.5 build 28614
+01056fc6 [C++] VS2019 v16.5.5 build 28614
+00ff6fc6 [RES] VS2019 v16.5.5 build 28614
+01026fc6 [LNK] VS2019 v16.5.5 build 28614
+01006fc6 [EXP] VS2019 v16.5.5 build 28614
+01016fc6 [IMP] VS2019 v16.5.5 build 28614
+
 # MSVS2019 v16.4.3
 01046e9b [ C ] VS2019 v16.4.3 build 28315
 01036e9b [ASM] VS2019 v16.4.3 build 28315
