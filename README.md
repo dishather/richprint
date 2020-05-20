@@ -52,6 +52,19 @@ Long and elaborate answer:
   files supplied by your vendor. Also, records that describe symbols imported
   and exported by DLLs have their distinct @comp.id's.
 
+## Sources of information
+I gathered some @comp.id's from my own collection of Visual Studio editions.
+
+Some were interpolated using open sources (e.g., an
+[excellent list of Visual Studio versions](https://dev.to/yumetodo/list-of-mscver-and-mscfullver-8nd)
+by @yumetodo. In this list, _MSC_FULL_VER contains the build number, so it is
+easy to interpolate the @comp.id's when you know the numbering scheme for
+different tools.
+
+"Interpolated" values are most likely to be correct. I checked some interpolated
+@comp.id's against real-world values, and they matched. Yet, interpolated
+values are marked with (*) for - ehm... - completeness?
+
 ## How can this information be used?
 In any way you like. For example, to satisfy you curiosity by inspecting the binaries in your system.
 Also, Rich Headers can allegedly be used in forensics.
