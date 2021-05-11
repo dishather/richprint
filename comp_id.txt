@@ -14,6 +14,15 @@
 00010000 [---] Unmarked objects
 00000000 [---] Unmarked objects (old)
 
+# MSVS2019 v16.9.4
+010474da [ C ] VS2019 v16.9.2 build 29914
+010374da [ASM] VS2019 v16.9.2 build 29914
+010574da [C++] VS2019 v16.9.2 build 29914
+00ff74da [RES] VS2019 v16.9.2 build 29914
+010274da [LNK] VS2019 v16.9.2 build 29914
+010074da [EXP] VS2019 v16.9.2 build 29914
+010174da [IMP] VS2019 v16.9.2 build 29914
+
 # MSVS2019 v16.9.2
 010474d9 [ C ] VS2019 v16.9.2 build 29913
 010374d9 [ASM] VS2019 v16.9.2 build 29913
@@ -23,7 +32,7 @@
 010074d9 [EXP] VS2019 v16.9.2 build 29913
 010174d9 [IMP] VS2019 v16.9.2 build 29913
 
-# MSVS2019 v16.9.2
+# MSVS2019 v16.9.0
 # from https://walbourn.github.io/vs-2019-update-9/
 010474d6 [ C ] VS2019 v16.9.0 build 29910 (*)
 010374d6 [ASM] VS2019 v16.9.0 build 29910 (*)
