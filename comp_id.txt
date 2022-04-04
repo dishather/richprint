@@ -14,6 +14,15 @@
 00010000 [---] Unmarked objects
 00000000 [---] Unmarked objects (old)
 
+# MSVS2022 v17.2.0-pre.2.1
+01047a46 [ C ] VS2022 v17.2.0 pre 2.1 build 31302
+01037a46 [ASM] VS2022 v17.2.0 pre 2.1 build 31302
+01057a46 [C++] VS2022 v17.2.0 pre 2.1 build 31302
+00ff7a46 [RES] VS2022 v17.2.0 pre 2.1 build 31302
+01027a46 [LNK] VS2022 v17.2.0 pre 2.1 build 31302
+01007a46 [EXP] VS2022 v17.2.0 pre 2.1 build 31302
+01017a46 [IMP] VS2022 v17.2.0 pre 2.1 build 31302
+
 # MSVS2022 v17.2.0-pre.1.0
 0104798a [ C ] VS2022 v17.2.0 pre 1.0 build 31114
 0103798a [ASM] VS2022 v17.2.0 pre 1.0 build 31114
