@@ -14,14 +14,23 @@
 00010000 [---] Unmarked objects
 00000000 [---] Unmarked objects (old)
 
-# MSVS2022 v17.2.0-pre.5.0
-01047a60 [ C ] VS2022 v17.2.0 pre 5.0 build 31328
-01037a60 [ASM] VS2022 v17.2.0 pre 5.0 build 31328
-01057a60 [C++] VS2022 v17.2.0 pre 5.0 build 31328
-00ff7a60 [RES] VS2022 v17.2.0 pre 5.0 build 31328
-01027a60 [LNK] VS2022 v17.2.0 pre 5.0 build 31328
-01007a60 [EXP] VS2022 v17.2.0 pre 5.0 build 31328
-01017a60 [IMP] VS2022 v17.2.0 pre 5.0 build 31328
+# MSVS2022 v17.3.0-pre.1.0
+01047ac0 [ C ] VS2022 v17.3.0 pre 1.0 build 31424
+01037ac0 [ASM] VS2022 v17.3.0 pre 1.0 build 31424
+01057ac0 [C++] VS2022 v17.3.0 pre 1.0 build 31424
+00ff7ac0 [RES] VS2022 v17.3.0 pre 1.0 build 31424
+01027ac0 [LNK] VS2022 v17.3.0 pre 1.0 build 31424
+01007ac0 [EXP] VS2022 v17.3.0 pre 1.0 build 31424
+01017ac0 [IMP] VS2022 v17.3.0 pre 1.0 build 31424
+
+# MSVS2022 v17.2.0 (also v17.2.0-pre.5.0)
+01047a60 [ C ] VS2022 v17.2.0 build 31328
+01037a60 [ASM] VS2022 v17.2.0 build 31328
+01057a60 [C++] VS2022 v17.2.0 build 31328
+00ff7a60 [RES] VS2022 v17.2.0 build 31328
+01027a60 [LNK] VS2022 v17.2.0 build 31328
+01007a60 [EXP] VS2022 v17.2.0 build 31328
+01017a60 [IMP] VS2022 v17.2.0 build 31328
 
 # MSVS2022 v17.2.0-pre.3.0
 01047a5e [ C ] VS2022 v17.2.0 pre 3.0 build 31326
