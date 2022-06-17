@@ -23,6 +23,15 @@
 01007a61 [EXP] VS2022 v17.2.1 build 31329
 01017a61 [IMP] VS2022 v17.2.1 build 31329
 
+# MSVS2022 v17.3.0-pre.2.0
+01047b1d [ C ] VS2022 v17.3.0 pre 2.0 build 31517
+01037b1d [ASM] VS2022 v17.3.0 pre 2.0 build 31517
+01057b1d [C++] VS2022 v17.3.0 pre 2.0 build 31517
+00ff7b1d [RES] VS2022 v17.3.0 pre 2.0 build 31517
+01027b1d [LNK] VS2022 v17.3.0 pre 2.0 build 31517
+01007b1d [EXP] VS2022 v17.3.0 pre 2.0 build 31517
+01017b1d [IMP] VS2022 v17.3.0 pre 2.0 build 31517
+
 # MSVS2022 v17.3.0-pre.1.0
 01047ac0 [ C ] VS2022 v17.3.0 pre 1.0 build 31424
 01037ac0 [ASM] VS2022 v17.3.0 pre 1.0 build 31424
