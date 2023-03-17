@@ -8,11 +8,16 @@
 # [IMP] - DLL import record in library file
 # [EXP] - DLL export record in library file
 # [ASM] - obj file produced by assembler
+# [LTC] - LTCG C (link-time code generation, C)
+# [LT+] - LTCG C++ (link-time code generation, C++)
+# [PGO] - POGO profiling, C
+# [PG+] - POGO profiling, C++
 # (*) at the end marks entries that are interpolated/calculated.
 
 # Objects without @comp.id are collected under this record
 00010000 [---] Unmarked objects
 00000000 [---] Unmarked objects (old)
+00fe0000 [---] CVTPGD
 
 # MSVS2022 v17.5.0
 01047dd7 [ C ] VS2022 v17.5.0 build 32215
@@ -22,6 +27,10 @@
 01027dd7 [LNK] VS2022 v17.5.0 build 32215
 01007dd7 [EXP] VS2022 v17.5.0 build 32215
 01017dd7 [IMP] VS2022 v17.5.0 build 32215
+01087dd7 [LTC] VS2022 v17.5.0 build 32215
+01097dd7 [LT+] VS2022 v17.5.0 build 32215
+010b7dd7 [PGO] VS2022 v17.5.0 build 32215
+010c7dd7 [PG+] VS2022 v17.5.0 build 32215
 
 # MSVS2022 v17.4.5
 01047cc6 [ C ] VS2022 v17.4.5 build 31942
@@ -85,6 +94,10 @@
 01027ef6 [LNK] VS2022 v17.6.0 pre 2.0 build 32502
 01007ef6 [EXP] VS2022 v17.6.0 pre 2.0 build 32502
 01017ef6 [IMP] VS2022 v17.6.0 pre 2.0 build 32502
+01087ef6 [LTC] VS2022 v17.6.0 pre 2.0 build 32502
+01097ef6 [LT+] VS2022 v17.6.0 pre 2.0 build 32502
+010b7ef6 [PGO] VS2022 v17.6.0 pre 2.0 build 32502
+010c7ef6 [PG+] VS2022 v17.6.0 pre 2.0 build 32502
 
 # MSVS2022 v17.6.0-pre.1.0
 01047e43 [ C ] VS2022 v17.6.0 pre 1.0 build 32323
