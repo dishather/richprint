@@ -8,10 +8,15 @@
 # [IMP] - DLL import record in library file
 # [EXP] - DLL export record in library file
 # [ASM] - obj file produced by assembler
+# [CIL] - CVTCIL C
+# [CI+] - CVTCIL C++
 # [LTC] - LTCG C (link-time code generation, C)
 # [LT+] - LTCG C++ (link-time code generation, C++)
-# [PGO] - POGO profiling, C
-# [PG+] - POGO profiling, C++
+# [LTM] - LTCG MSIL
+# [PGO] - POGO I profiling, C
+# [PG+] - POGO I profiling, C++
+# [POC] - POGO O, C
+# [PO+] - POGO O, C++
 # (*) at the end marks entries that are interpolated/calculated.
 
 # Objects without @comp.id are collected under this record
@@ -33,6 +38,11 @@
 01097dd8 [LT+] VS2022 v17.5.3 build 32216
 010b7dd8 [PGO] VS2022 v17.5.3 build 32216
 010c7dd8 [PG+] VS2022 v17.5.3 build 32216
+01067dd8 [CIL] VS2022 v17.5.3 build 32216 (*)
+01077dd8 [CI+] VS2022 v17.5.3 build 32216 (*)
+010a7dd8 [LTM] VS2022 v17.5.3 build 32216 (*)
+010d7dd8 [POC] VS2022 v17.5.3 build 32216 (*)
+010e7dd8 [PO+] VS2022 v17.5.3 build 32216 (*)
 
 # MSVS2022 v17.5.0
 # MSVS2022 v17.5.1
@@ -48,6 +58,11 @@
 01097dd7 [LT+] VS2022 v17.5.0 build 32215
 010b7dd7 [PGO] VS2022 v17.5.0 build 32215
 010c7dd7 [PG+] VS2022 v17.5.0 build 32215
+01067dd7 [CIL] VS2022 v17.5.0 build 32215 (*)
+01077dd7 [CI+] VS2022 v17.5.0 build 32215 (*)
+010a7dd7 [LTM] VS2022 v17.5.0 build 32215 (*)
+010d7dd7 [POC] VS2022 v17.5.0 build 32215 (*)
+010e7dd7 [PO+] VS2022 v17.5.0 build 32215 (*)
 
 # MSVS2022 v17.4.5
 01047cc6 [ C ] VS2022 v17.4.5 build 31942
@@ -57,6 +72,15 @@
 01027cc6 [LNK] VS2022 v17.4.5 build 31942
 01007cc6 [EXP] VS2022 v17.4.5 build 31942
 01017cc6 [IMP] VS2022 v17.4.5 build 31942
+01067cc6 [CIL] VS2022 v17.4.5 build 31942 (*)
+01077cc6 [CI+] VS2022 v17.4.5 build 31942 (*)
+01087cc6 [LTC] VS2022 v17.4.5 build 31942 (*)
+01097cc6 [LT+] VS2022 v17.4.5 build 31942 (*)
+010a7cc6 [LTM] VS2022 v17.4.5 build 31942 (*)
+010b7cc6 [PGO] VS2022 v17.4.5 build 31942 (*)
+010c7cc6 [PG+] VS2022 v17.4.5 build 31942 (*)
+010d7cc6 [POC] VS2022 v17.4.5 build 31942 (*)
+010e7cc6 [PO+] VS2022 v17.4.5 build 31942 (*)
 
 # MSVS2022 v17.4.3
 01047cc1 [ C ] VS2022 v17.4.3 build 31937
@@ -66,6 +90,15 @@
 01027cc1 [LNK] VS2022 v17.4.3 build 31937
 01007cc1 [EXP] VS2022 v17.4.3 build 31937
 01017cc1 [IMP] VS2022 v17.4.3 build 31937
+01067cc1 [CIL] VS2022 v17.4.3 build 31937 (*)
+01077cc1 [CI+] VS2022 v17.4.3 build 31937 (*)
+01087cc1 [LTC] VS2022 v17.4.3 build 31937 (*)
+01097cc1 [LT+] VS2022 v17.4.3 build 31937 (*)
+010a7cc1 [LTM] VS2022 v17.4.3 build 31937 (*)
+010b7cc1 [PGO] VS2022 v17.4.3 build 31937 (*)
+010c7cc1 [PG+] VS2022 v17.4.3 build 31937 (*)
+010d7cc1 [POC] VS2022 v17.4.3 build 31937 (*)
+010e7cc1 [PO+] VS2022 v17.4.3 build 31937 (*)
 
 # MSVS2022 v17.4.2
 01047cbf [ C ] VS2022 v17.4.2 build 31935
@@ -75,6 +108,15 @@
 01027cbf [LNK] VS2022 v17.4.2 build 31935
 01007cbf [EXP] VS2022 v17.4.2 build 31935
 01017cbf [IMP] VS2022 v17.4.2 build 31935
+01067cbf [CIL] VS2022 v17.4.2 build 31935 (*)
+01077cbf [CI+] VS2022 v17.4.2 build 31935 (*)
+01087cbf [LTC] VS2022 v17.4.2 build 31935 (*)
+01097cbf [LT+] VS2022 v17.4.2 build 31935 (*)
+010a7cbf [LTM] VS2022 v17.4.2 build 31935 (*)
+010b7cbf [PGO] VS2022 v17.4.2 build 31935 (*)
+010c7cbf [PG+] VS2022 v17.4.2 build 31935 (*)
+010d7cbf [POC] VS2022 v17.4.2 build 31935 (*)
+010e7cbf [PO+] VS2022 v17.4.2 build 31935 (*)
 
 # MSVS2022 v17.3.4
 01047b8e [ C ] VS2022 v17.3.4 build 31630
@@ -84,6 +126,15 @@
 01027b8e [LNK] VS2022 v17.3.4 build 31630
 01007b8e [EXP] VS2022 v17.3.4 build 31630
 01017b8e [IMP] VS2022 v17.3.4 build 31630
+01067b8e [CIL] VS2022 v17.3.4 build 31630 (*)
+01077b8e [CI+] VS2022 v17.3.4 build 31630 (*)
+01087b8e [LTC] VS2022 v17.3.4 build 31630 (*)
+01097b8e [LT+] VS2022 v17.3.4 build 31630 (*)
+010a7b8e [LTM] VS2022 v17.3.4 build 31630 (*)
+010b7b8e [PGO] VS2022 v17.3.4 build 31630 (*)
+010c7b8e [PG+] VS2022 v17.3.4 build 31630 (*)
+010d7b8e [POC] VS2022 v17.3.4 build 31630 (*)
+010e7b8e [PO+] VS2022 v17.3.4 build 31630 (*)
 
 # MSVS2022 v17.2.5
 01047a64 [ C ] VS2022 v17.2.5 build 31332
@@ -93,6 +144,15 @@
 01027a64 [LNK] VS2022 v17.2.5 build 31332
 01007a64 [EXP] VS2022 v17.2.5 build 31332
 01017a64 [IMP] VS2022 v17.2.5 build 31332
+01067a64 [CIL] VS2022 v17.2.5 build 31332 (*)
+01077a64 [CI+] VS2022 v17.2.5 build 31332 (*)
+01087a64 [LTC] VS2022 v17.2.5 build 31332 (*)
+01097a64 [LT+] VS2022 v17.2.5 build 31332 (*)
+010a7a64 [LTM] VS2022 v17.2.5 build 31332 (*)
+010b7a64 [PGO] VS2022 v17.2.5 build 31332 (*)
+010c7a64 [PG+] VS2022 v17.2.5 build 31332 (*)
+010d7a64 [POC] VS2022 v17.2.5 build 31332 (*)
+010e7a64 [PO+] VS2022 v17.2.5 build 31332 (*)
 
 # MSVS2022 v17.2.1 - 17.2.4
 01047a61 [ C ] VS2022 v17.2.1 build 31329
@@ -102,6 +162,15 @@
 01027a61 [LNK] VS2022 v17.2.1 build 31329
 01007a61 [EXP] VS2022 v17.2.1 build 31329
 01017a61 [IMP] VS2022 v17.2.1 build 31329
+01067a61 [CIL] VS2022 v17.2.1 build 31329 (*)
+01077a61 [CI+] VS2022 v17.2.1 build 31329 (*)
+01087a61 [LTC] VS2022 v17.2.1 build 31329 (*)
+01097a61 [LT+] VS2022 v17.2.1 build 31329 (*)
+010a7a61 [LTM] VS2022 v17.2.1 build 31329 (*)
+010b7a61 [PGO] VS2022 v17.2.1 build 31329 (*)
+010c7a61 [PG+] VS2022 v17.2.1 build 31329 (*)
+010d7a61 [POC] VS2022 v17.2.1 build 31329 (*)
+010e7a61 [PO+] VS2022 v17.2.1 build 31329 (*)
 
 # MSVS2022 v17.6.0-pre.2.0
 01047ef6 [ C ] VS2022 v17.6.0 pre 2.0 build 32502
@@ -115,6 +184,11 @@
 01097ef6 [LT+] VS2022 v17.6.0 pre 2.0 build 32502
 010b7ef6 [PGO] VS2022 v17.6.0 pre 2.0 build 32502
 010c7ef6 [PG+] VS2022 v17.6.0 pre 2.0 build 32502
+01067ef6 [CIL] VS2022 v17.6.0 pre 2.0 build 32502 (*)
+01077ef6 [CI+] VS2022 v17.6.0 pre 2.0 build 32502 (*)
+010a7ef6 [LTM] VS2022 v17.6.0 pre 2.0 build 32502 (*)
+010d7ef6 [POC] VS2022 v17.6.0 pre 2.0 build 32502 (*)
+010e7ef6 [PO+] VS2022 v17.6.0 pre 2.0 build 32502 (*)
 
 # MSVS2022 v17.6.0-pre.1.0
 01047e43 [ C ] VS2022 v17.6.0 pre 1.0 build 32323
@@ -124,6 +198,15 @@
 01027e43 [LNK] VS2022 v17.6.0 pre 1.0 build 32323
 01007e43 [EXP] VS2022 v17.6.0 pre 1.0 build 32323
 01017e43 [IMP] VS2022 v17.6.0 pre 1.0 build 32323
+01067e43 [CIL] VS2022 v17.6.0 pre 1.0 build 32323 (*)
+01077e43 [CI+] VS2022 v17.6.0 pre 1.0 build 32323 (*)
+01087e43 [LTC] VS2022 v17.6.0 pre 1.0 build 32323 (*)
+01097e43 [LT+] VS2022 v17.6.0 pre 1.0 build 32323 (*)
+010a7e43 [LTM] VS2022 v17.6.0 pre 1.0 build 32323 (*)
+010b7e43 [PGO] VS2022 v17.6.0 pre 1.0 build 32323 (*)
+010c7e43 [PG+] VS2022 v17.6.0 pre 1.0 build 32323 (*)
+010d7e43 [POC] VS2022 v17.6.0 pre 1.0 build 32323 (*)
+010e7e43 [PO+] VS2022 v17.6.0 pre 1.0 build 32323 (*)
 
 # MSVS2022 v17.5.0-pre.4.0
 01047dd5 [ C ] VS2022 v17.5.0 pre 4.0 build 32213
@@ -133,6 +216,15 @@
 01027dd5 [LNK] VS2022 v17.5.0 pre 4.0 build 32213
 01007dd5 [EXP] VS2022 v17.5.0 pre 4.0 build 32213
 01017dd5 [IMP] VS2022 v17.5.0 pre 4.0 build 32213
+01067dd5 [CIL] VS2022 v17.5.0 pre 4.0 build 32213 (*)
+01077dd5 [CI+] VS2022 v17.5.0 pre 4.0 build 32213 (*)
+01087dd5 [LTC] VS2022 v17.5.0 pre 4.0 build 32213 (*)
+01097dd5 [LT+] VS2022 v17.5.0 pre 4.0 build 32213 (*)
+010a7dd5 [LTM] VS2022 v17.5.0 pre 4.0 build 32213 (*)
+010b7dd5 [PGO] VS2022 v17.5.0 pre 4.0 build 32213 (*)
+010c7dd5 [PG+] VS2022 v17.5.0 pre 4.0 build 32213 (*)
+010d7dd5 [POC] VS2022 v17.5.0 pre 4.0 build 32213 (*)
+010e7dd5 [PO+] VS2022 v17.5.0 pre 4.0 build 32213 (*)
 
 # MSVS2022 v17.5.0-pre.2.0
 01047d7c [ C ] VS2022 v17.5.0 pre 2.0 build 32124
@@ -142,6 +234,15 @@
 01027d7c [LNK] VS2022 v17.5.0 pre 2.0 build 32124
 01007d7c [EXP] VS2022 v17.5.0 pre 2.0 build 32124
 01017d7c [IMP] VS2022 v17.5.0 pre 2.0 build 32124
+01067d7c [CIL] VS2022 v17.5.0 pre 2.0 build 32124 (*)
+01077d7c [CI+] VS2022 v17.5.0 pre 2.0 build 32124 (*)
+01087d7c [LTC] VS2022 v17.5.0 pre 2.0 build 32124 (*)
+01097d7c [LT+] VS2022 v17.5.0 pre 2.0 build 32124 (*)
+010a7d7c [LTM] VS2022 v17.5.0 pre 2.0 build 32124 (*)
+010b7d7c [PGO] VS2022 v17.5.0 pre 2.0 build 32124 (*)
+010c7d7c [PG+] VS2022 v17.5.0 pre 2.0 build 32124 (*)
+010d7d7c [POC] VS2022 v17.5.0 pre 2.0 build 32124 (*)
+010e7d7c [PO+] VS2022 v17.5.0 pre 2.0 build 32124 (*)
 
 # MSVS2022 v17.5.0-pre.1.0
 01047d13 [ C ] VS2022 v17.5.0 pre 1.0 build 32019
@@ -151,6 +252,15 @@
 01027d13 [LNK] VS2022 v17.5.0 pre 1.0 build 32019
 01007d13 [EXP] VS2022 v17.5.0 pre 1.0 build 32019
 01017d13 [IMP] VS2022 v17.5.0 pre 1.0 build 32019
+01067d13 [CIL] VS2022 v17.5.0 pre 1.0 build 32019 (*)
+01077d13 [CI+] VS2022 v17.5.0 pre 1.0 build 32019 (*)
+01087d13 [LTC] VS2022 v17.5.0 pre 1.0 build 32019 (*)
+01097d13 [LT+] VS2022 v17.5.0 pre 1.0 build 32019 (*)
+010a7d13 [LTM] VS2022 v17.5.0 pre 1.0 build 32019 (*)
+010b7d13 [PGO] VS2022 v17.5.0 pre 1.0 build 32019 (*)
+010c7d13 [PG+] VS2022 v17.5.0 pre 1.0 build 32019 (*)
+010d7d13 [POC] VS2022 v17.5.0 pre 1.0 build 32019 (*)
+010e7d13 [PO+] VS2022 v17.5.0 pre 1.0 build 32019 (*)
 
 # MSVS2022 v17.4.0-pre.6.0
 01047cbd [ C ] VS2022 v17.4.0 pre 6.0 build 31933
@@ -160,6 +270,15 @@
 01027cbd [LNK] VS2022 v17.4.0 pre 6.0 build 31933
 01007cbd [EXP] VS2022 v17.4.0 pre 6.0 build 31933
 01017cbd [IMP] VS2022 v17.4.0 pre 6.0 build 31933
+01067cbd [CIL] VS2022 v17.4.0 pre 6.0 build 31933 (*)
+01077cbd [CI+] VS2022 v17.4.0 pre 6.0 build 31933 (*)
+01087cbd [LTC] VS2022 v17.4.0 pre 6.0 build 31933 (*)
+01097cbd [LT+] VS2022 v17.4.0 pre 6.0 build 31933 (*)
+010a7cbd [LTM] VS2022 v17.4.0 pre 6.0 build 31933 (*)
+010b7cbd [PGO] VS2022 v17.4.0 pre 6.0 build 31933 (*)
+010c7cbd [PG+] VS2022 v17.4.0 pre 6.0 build 31933 (*)
+010d7cbd [POC] VS2022 v17.4.0 pre 6.0 build 31933 (*)
+010e7cbd [PO+] VS2022 v17.4.0 pre 6.0 build 31933 (*)
 
 # MSVS2022 v17.4.0-pre.5.0
 01047cbc [ C ] VS2022 v17.4.0 pre 5.0 build 31932
@@ -169,6 +288,15 @@
 01027cbc [LNK] VS2022 v17.4.0 pre 5.0 build 31932
 01007cbc [EXP] VS2022 v17.4.0 pre 5.0 build 31932
 01017cbc [IMP] VS2022 v17.4.0 pre 5.0 build 31932
+01067cbc [CIL] VS2022 v17.4.0 pre 5.0 build 31932 (*)
+01077cbc [CI+] VS2022 v17.4.0 pre 5.0 build 31932 (*)
+01087cbc [LTC] VS2022 v17.4.0 pre 5.0 build 31932 (*)
+01097cbc [LT+] VS2022 v17.4.0 pre 5.0 build 31932 (*)
+010a7cbc [LTM] VS2022 v17.4.0 pre 5.0 build 31932 (*)
+010b7cbc [PGO] VS2022 v17.4.0 pre 5.0 build 31932 (*)
+010c7cbc [PG+] VS2022 v17.4.0 pre 5.0 build 31932 (*)
+010d7cbc [POC] VS2022 v17.4.0 pre 5.0 build 31932 (*)
+010e7cbc [PO+] VS2022 v17.4.0 pre 5.0 build 31932 (*)
 
 # MSVS2022 v17.4.0-pre.4.0
 01047cbb [ C ] VS2022 v17.4.0 pre 4.0 build 31931
@@ -178,6 +306,15 @@
 01027cbb [LNK] VS2022 v17.4.0 pre 4.0 build 31931
 01007cbb [EXP] VS2022 v17.4.0 pre 4.0 build 31931
 01017cbb [IMP] VS2022 v17.4.0 pre 4.0 build 31931
+01067cbb [CIL] VS2022 v17.4.0 pre 4.0 build 31931 (*)
+01077cbb [CI+] VS2022 v17.4.0 pre 4.0 build 31931 (*)
+01087cbb [LTC] VS2022 v17.4.0 pre 4.0 build 31931 (*)
+01097cbb [LT+] VS2022 v17.4.0 pre 4.0 build 31931 (*)
+010a7cbb [LTM] VS2022 v17.4.0 pre 4.0 build 31931 (*)
+010b7cbb [PGO] VS2022 v17.4.0 pre 4.0 build 31931 (*)
+010c7cbb [PG+] VS2022 v17.4.0 pre 4.0 build 31931 (*)
+010d7cbb [POC] VS2022 v17.4.0 pre 4.0 build 31931 (*)
+010e7cbb [PO+] VS2022 v17.4.0 pre 4.0 build 31931 (*)
 
 # MSVS2022 v17.4.0-pre.3.0
 01047cb1 [ C ] VS2022 v17.4.0 pre 3.0 build 31921
@@ -187,6 +324,15 @@
 01027cb1 [LNK] VS2022 v17.4.0 pre 3.0 build 31921
 01007cb1 [EXP] VS2022 v17.4.0 pre 3.0 build 31921
 01017cb1 [IMP] VS2022 v17.4.0 pre 3.0 build 31921
+01067cb1 [CIL] VS2022 v17.4.0 pre 3.0 build 31921 (*)
+01077cb1 [CI+] VS2022 v17.4.0 pre 3.0 build 31921 (*)
+01087cb1 [LTC] VS2022 v17.4.0 pre 3.0 build 31921 (*)
+01097cb1 [LT+] VS2022 v17.4.0 pre 3.0 build 31921 (*)
+010a7cb1 [LTM] VS2022 v17.4.0 pre 3.0 build 31921 (*)
+010b7cb1 [PGO] VS2022 v17.4.0 pre 3.0 build 31921 (*)
+010c7cb1 [PG+] VS2022 v17.4.0 pre 3.0 build 31921 (*)
+010d7cb1 [POC] VS2022 v17.4.0 pre 3.0 build 31921 (*)
+010e7cb1 [PO+] VS2022 v17.4.0 pre 3.0 build 31921 (*)
 
 # MSVS2022 v17.4.0-pre.2.0
 01047c4f [ C ] VS2022 v17.4.0 pre 2.0 build 31823
@@ -196,6 +342,15 @@
 01027c4f [LNK] VS2022 v17.4.0 pre 2.0 build 31823
 01007c4f [EXP] VS2022 v17.4.0 pre 2.0 build 31823
 01017c4f [IMP] VS2022 v17.4.0 pre 2.0 build 31823
+01067c4f [CIL] VS2022 v17.4.0 pre 2.0 build 31823 (*)
+01077c4f [CI+] VS2022 v17.4.0 pre 2.0 build 31823 (*)
+01087c4f [LTC] VS2022 v17.4.0 pre 2.0 build 31823 (*)
+01097c4f [LT+] VS2022 v17.4.0 pre 2.0 build 31823 (*)
+010a7c4f [LTM] VS2022 v17.4.0 pre 2.0 build 31823 (*)
+010b7c4f [PGO] VS2022 v17.4.0 pre 2.0 build 31823 (*)
+010c7c4f [PG+] VS2022 v17.4.0 pre 2.0 build 31823 (*)
+010d7c4f [POC] VS2022 v17.4.0 pre 2.0 build 31823 (*)
+010e7c4f [PO+] VS2022 v17.4.0 pre 2.0 build 31823 (*)
 
 # MSVS2022 v17.4.0-pre.1.0
 01047be9 [ C ] VS2022 v17.4.0 pre 1.0 build 31721
@@ -205,6 +360,15 @@
 01027be9 [LNK] VS2022 v17.4.0 pre 1.0 build 31721
 01007be9 [EXP] VS2022 v17.4.0 pre 1.0 build 31721
 01017be9 [IMP] VS2022 v17.4.0 pre 1.0 build 31721
+01067be9 [CIL] VS2022 v17.4.0 pre 1.0 build 31721 (*)
+01077be9 [CI+] VS2022 v17.4.0 pre 1.0 build 31721 (*)
+01087be9 [LTC] VS2022 v17.4.0 pre 1.0 build 31721 (*)
+01097be9 [LT+] VS2022 v17.4.0 pre 1.0 build 31721 (*)
+010a7be9 [LTM] VS2022 v17.4.0 pre 1.0 build 31721 (*)
+010b7be9 [PGO] VS2022 v17.4.0 pre 1.0 build 31721 (*)
+010c7be9 [PG+] VS2022 v17.4.0 pre 1.0 build 31721 (*)
+010d7be9 [POC] VS2022 v17.4.0 pre 1.0 build 31721 (*)
+010e7be9 [PO+] VS2022 v17.4.0 pre 1.0 build 31721 (*)
 
 # MSVS2022 v17.3.0 (also 17.3.0 pre 5.0)
 01047b8d [ C ] VS2022 v17.3.0 build 31629
@@ -214,6 +378,15 @@
 01027b8d [LNK] VS2022 v17.3.0 build 31629
 01007b8d [EXP] VS2022 v17.3.0 build 31629
 01017b8d [IMP] VS2022 v17.3.0 build 31629
+01067b8d [CIL] VS2022 v17.3.0 build 31629 (*)
+01077b8d [CI+] VS2022 v17.3.0 build 31629 (*)
+01087b8d [LTC] VS2022 v17.3.0 build 31629 (*)
+01097b8d [LT+] VS2022 v17.3.0 build 31629 (*)
+010a7b8d [LTM] VS2022 v17.3.0 build 31629 (*)
+010b7b8d [PGO] VS2022 v17.3.0 build 31629 (*)
+010c7b8d [PG+] VS2022 v17.3.0 build 31629 (*)
+010d7b8d [POC] VS2022 v17.3.0 build 31629 (*)
+010e7b8d [PO+] VS2022 v17.3.0 build 31629 (*)
 
 # MSVS2022 v17.3.0-pre.4.0
 01047b8c [ C ] VS2022 v17.3.0 pre 4.0 build 31628 (*)
@@ -223,6 +396,15 @@
 01027b8c [LNK] VS2022 v17.3.0 pre 4.0 build 31628 (*)
 01007b8c [EXP] VS2022 v17.3.0 pre 4.0 build 31628 (*)
 01017b8c [IMP] VS2022 v17.3.0 pre 4.0 build 31628 (*)
+01067b8c [CIL] VS2022 v17.3.0 pre 4.0 build 31628 (*)
+01077b8c [CI+] VS2022 v17.3.0 pre 4.0 build 31628 (*)
+01087b8c [LTC] VS2022 v17.3.0 pre 4.0 build 31628 (*)
+01097b8c [LT+] VS2022 v17.3.0 pre 4.0 build 31628 (*)
+010a7b8c [LTM] VS2022 v17.3.0 pre 4.0 build 31628 (*)
+010b7b8c [PGO] VS2022 v17.3.0 pre 4.0 build 31628 (*)
+010c7b8c [PG+] VS2022 v17.3.0 pre 4.0 build 31628 (*)
+010d7b8c [POC] VS2022 v17.3.0 pre 4.0 build 31628 (*)
+010e7b8c [PO+] VS2022 v17.3.0 pre 4.0 build 31628 (*)
 
 # MSVS2022 v17.3.0-pre.3.0
 01047b8b [ C ] VS2022 v17.3.0 pre 3.0 build 31627
@@ -232,6 +414,15 @@
 01027b8b [LNK] VS2022 v17.3.0 pre 3.0 build 31627
 01007b8b [EXP] VS2022 v17.3.0 pre 3.0 build 31627
 01017b8b [IMP] VS2022 v17.3.0 pre 3.0 build 31627
+01067b8b [CIL] VS2022 v17.3.0 pre 3.0 build 31627 (*)
+01077b8b [CI+] VS2022 v17.3.0 pre 3.0 build 31627 (*)
+01087b8b [LTC] VS2022 v17.3.0 pre 3.0 build 31627 (*)
+01097b8b [LT+] VS2022 v17.3.0 pre 3.0 build 31627 (*)
+010a7b8b [LTM] VS2022 v17.3.0 pre 3.0 build 31627 (*)
+010b7b8b [PGO] VS2022 v17.3.0 pre 3.0 build 31627 (*)
+010c7b8b [PG+] VS2022 v17.3.0 pre 3.0 build 31627 (*)
+010d7b8b [POC] VS2022 v17.3.0 pre 3.0 build 31627 (*)
+010e7b8b [PO+] VS2022 v17.3.0 pre 3.0 build 31627 (*)
 
 # MSVS2022 v17.3.0-pre.2.0
 01047b1d [ C ] VS2022 v17.3.0 pre 2.0 build 31517
@@ -241,6 +432,15 @@
 01027b1d [LNK] VS2022 v17.3.0 pre 2.0 build 31517
 01007b1d [EXP] VS2022 v17.3.0 pre 2.0 build 31517
 01017b1d [IMP] VS2022 v17.3.0 pre 2.0 build 31517
+01067b1d [CIL] VS2022 v17.3.0 pre 2.0 build 31517 (*)
+01077b1d [CI+] VS2022 v17.3.0 pre 2.0 build 31517 (*)
+01087b1d [LTC] VS2022 v17.3.0 pre 2.0 build 31517 (*)
+01097b1d [LT+] VS2022 v17.3.0 pre 2.0 build 31517 (*)
+010a7b1d [LTM] VS2022 v17.3.0 pre 2.0 build 31517 (*)
+010b7b1d [PGO] VS2022 v17.3.0 pre 2.0 build 31517 (*)
+010c7b1d [PG+] VS2022 v17.3.0 pre 2.0 build 31517 (*)
+010d7b1d [POC] VS2022 v17.3.0 pre 2.0 build 31517 (*)
+010e7b1d [PO+] VS2022 v17.3.0 pre 2.0 build 31517 (*)
 
 # MSVS2022 v17.3.0-pre.1.0
 01047ac0 [ C ] VS2022 v17.3.0 pre 1.0 build 31424
@@ -250,6 +450,15 @@
 01027ac0 [LNK] VS2022 v17.3.0 pre 1.0 build 31424
 01007ac0 [EXP] VS2022 v17.3.0 pre 1.0 build 31424
 01017ac0 [IMP] VS2022 v17.3.0 pre 1.0 build 31424
+01067ac0 [CIL] VS2022 v17.3.0 pre 1.0 build 31424 (*)
+01077ac0 [CI+] VS2022 v17.3.0 pre 1.0 build 31424 (*)
+01087ac0 [LTC] VS2022 v17.3.0 pre 1.0 build 31424 (*)
+01097ac0 [LT+] VS2022 v17.3.0 pre 1.0 build 31424 (*)
+010a7ac0 [LTM] VS2022 v17.3.0 pre 1.0 build 31424 (*)
+010b7ac0 [PGO] VS2022 v17.3.0 pre 1.0 build 31424 (*)
+010c7ac0 [PG+] VS2022 v17.3.0 pre 1.0 build 31424 (*)
+010d7ac0 [POC] VS2022 v17.3.0 pre 1.0 build 31424 (*)
+010e7ac0 [PO+] VS2022 v17.3.0 pre 1.0 build 31424 (*)
 
 # MSVS2022 v17.2.0 (also v17.2.0-pre.5.0)
 01047a60 [ C ] VS2022 v17.2.0 build 31328
@@ -259,6 +468,15 @@
 01027a60 [LNK] VS2022 v17.2.0 build 31328
 01007a60 [EXP] VS2022 v17.2.0 build 31328
 01017a60 [IMP] VS2022 v17.2.0 build 31328
+01067a60 [CIL] VS2022 v17.2.0 build 31328 (*)
+01077a60 [CI+] VS2022 v17.2.0 build 31328 (*)
+01087a60 [LTC] VS2022 v17.2.0 build 31328 (*)
+01097a60 [LT+] VS2022 v17.2.0 build 31328 (*)
+010a7a60 [LTM] VS2022 v17.2.0 build 31328 (*)
+010b7a60 [PGO] VS2022 v17.2.0 build 31328 (*)
+010c7a60 [PG+] VS2022 v17.2.0 build 31328 (*)
+010d7a60 [POC] VS2022 v17.2.0 build 31328 (*)
+010e7a60 [PO+] VS2022 v17.2.0 build 31328 (*)
 
 # MSVS2022 v17.2.0-pre.3.0
 01047a5e [ C ] VS2022 v17.2.0 pre 3.0 build 31326
@@ -268,6 +486,15 @@
 01027a5e [LNK] VS2022 v17.2.0 pre 3.0 build 31326
 01007a5e [EXP] VS2022 v17.2.0 pre 3.0 build 31326
 01017a5e [IMP] VS2022 v17.2.0 pre 3.0 build 31326
+01067a5e [CIL] VS2022 v17.2.0 pre 3.0 build 31326 (*)
+01077a5e [CI+] VS2022 v17.2.0 pre 3.0 build 31326 (*)
+01087a5e [LTC] VS2022 v17.2.0 pre 3.0 build 31326 (*)
+01097a5e [LT+] VS2022 v17.2.0 pre 3.0 build 31326 (*)
+010a7a5e [LTM] VS2022 v17.2.0 pre 3.0 build 31326 (*)
+010b7a5e [PGO] VS2022 v17.2.0 pre 3.0 build 31326 (*)
+010c7a5e [PG+] VS2022 v17.2.0 pre 3.0 build 31326 (*)
+010d7a5e [POC] VS2022 v17.2.0 pre 3.0 build 31326 (*)
+010e7a5e [PO+] VS2022 v17.2.0 pre 3.0 build 31326 (*)
 
 # MSVS2022 v17.2.0-pre.2.1
 01047a46 [ C ] VS2022 v17.2.0 pre 2.1 build 31302
@@ -277,6 +504,15 @@
 01027a46 [LNK] VS2022 v17.2.0 pre 2.1 build 31302
 01007a46 [EXP] VS2022 v17.2.0 pre 2.1 build 31302
 01017a46 [IMP] VS2022 v17.2.0 pre 2.1 build 31302
+01067a46 [CIL] VS2022 v17.2.0 pre 2.1 build 31302 (*)
+01077a46 [CI+] VS2022 v17.2.0 pre 2.1 build 31302 (*)
+01087a46 [LTC] VS2022 v17.2.0 pre 2.1 build 31302 (*)
+01097a46 [LT+] VS2022 v17.2.0 pre 2.1 build 31302 (*)
+010a7a46 [LTM] VS2022 v17.2.0 pre 2.1 build 31302 (*)
+010b7a46 [PGO] VS2022 v17.2.0 pre 2.1 build 31302 (*)
+010c7a46 [PG+] VS2022 v17.2.0 pre 2.1 build 31302 (*)
+010d7a46 [POC] VS2022 v17.2.0 pre 2.1 build 31302 (*)
+010e7a46 [PO+] VS2022 v17.2.0 pre 2.1 build 31302 (*)
 
 # MSVS2022 v17.2.0-pre.1.0
 0104798a [ C ] VS2022 v17.2.0 pre 1.0 build 31114
@@ -286,6 +522,15 @@
 0102798a [LNK] VS2022 v17.2.0 pre 1.0 build 31114
 0100798a [EXP] VS2022 v17.2.0 pre 1.0 build 31114
 0101798a [IMP] VS2022 v17.2.0 pre 1.0 build 31114
+0106798a [CIL] VS2022 v17.2.0 pre 1.0 build 31114 (*)
+0107798a [CI+] VS2022 v17.2.0 pre 1.0 build 31114 (*)
+0108798a [LTC] VS2022 v17.2.0 pre 1.0 build 31114 (*)
+0109798a [LT+] VS2022 v17.2.0 pre 1.0 build 31114 (*)
+010a798a [LTM] VS2022 v17.2.0 pre 1.0 build 31114 (*)
+010b798a [PGO] VS2022 v17.2.0 pre 1.0 build 31114 (*)
+010c798a [PG+] VS2022 v17.2.0 pre 1.0 build 31114 (*)
+010d798a [POC] VS2022 v17.2.0 pre 1.0 build 31114 (*)
+010e798a [PO+] VS2022 v17.2.0 pre 1.0 build 31114 (*)
 
 # MSVS2022 v17.1.0-pre.5.0
 01047980 [ C ] VS2022 v17.1.0 pre 5.0 build 31104
@@ -295,6 +540,15 @@
 01027980 [LNK] VS2022 v17.1.0 pre 5.0 build 31104
 01007980 [EXP] VS2022 v17.1.0 pre 5.0 build 31104
 01017980 [IMP] VS2022 v17.1.0 pre 5.0 build 31104
+01067980 [CIL] VS2022 v17.1.0 pre 5.0 build 31104 (*)
+01077980 [CI+] VS2022 v17.1.0 pre 5.0 build 31104 (*)
+01087980 [LTC] VS2022 v17.1.0 pre 5.0 build 31104 (*)
+01097980 [LT+] VS2022 v17.1.0 pre 5.0 build 31104 (*)
+010a7980 [LTM] VS2022 v17.1.0 pre 5.0 build 31104 (*)
+010b7980 [PGO] VS2022 v17.1.0 pre 5.0 build 31104 (*)
+010c7980 [PG+] VS2022 v17.1.0 pre 5.0 build 31104 (*)
+010d7980 [POC] VS2022 v17.1.0 pre 5.0 build 31104 (*)
+010e7980 [PO+] VS2022 v17.1.0 pre 5.0 build 31104 (*)
 
 # MSVS2022 v17.1.0-pre.3.0
 0104797f [ C ] VS2022 v17.1.0 pre 3.0 build 31103
@@ -304,6 +558,15 @@
 0102797f [LNK] VS2022 v17.1.0 pre 3.0 build 31103
 0100797f [EXP] VS2022 v17.1.0 pre 3.0 build 31103
 0101797f [IMP] VS2022 v17.1.0 pre 3.0 build 31103
+0106797f [CIL] VS2022 v17.1.0 pre 3.0 build 31103 (*)
+0107797f [CI+] VS2022 v17.1.0 pre 3.0 build 31103 (*)
+0108797f [LTC] VS2022 v17.1.0 pre 3.0 build 31103 (*)
+0109797f [LT+] VS2022 v17.1.0 pre 3.0 build 31103 (*)
+010a797f [LTM] VS2022 v17.1.0 pre 3.0 build 31103 (*)
+010b797f [PGO] VS2022 v17.1.0 pre 3.0 build 31103 (*)
+010c797f [PG+] VS2022 v17.1.0 pre 3.0 build 31103 (*)
+010d797f [POC] VS2022 v17.1.0 pre 3.0 build 31103 (*)
+010e797f [PO+] VS2022 v17.1.0 pre 3.0 build 31103 (*)
 
 # MSVS2022 v17.1.0-pre.2.0
 010478c7 [ C ] VS2022 v17.1.0 pre 2.0 build 30919
@@ -313,6 +576,15 @@
 010278c7 [LNK] VS2022 v17.1.0 pre 2.0 build 30919
 010078c7 [EXP] VS2022 v17.1.0 pre 2.0 build 30919
 010178c7 [IMP] VS2022 v17.1.0 pre 2.0 build 30919
+010678c7 [CIL] VS2022 v17.1.0 pre 2.0 build 30919 (*)
+010778c7 [CI+] VS2022 v17.1.0 pre 2.0 build 30919 (*)
+010878c7 [LTC] VS2022 v17.1.0 pre 2.0 build 30919 (*)
+010978c7 [LT+] VS2022 v17.1.0 pre 2.0 build 30919 (*)
+010a78c7 [LTM] VS2022 v17.1.0 pre 2.0 build 30919 (*)
+010b78c7 [PGO] VS2022 v17.1.0 pre 2.0 build 30919 (*)
+010c78c7 [PG+] VS2022 v17.1.0 pre 2.0 build 30919 (*)
+010d78c7 [POC] VS2022 v17.1.0 pre 2.0 build 30919 (*)
+010e78c7 [PO+] VS2022 v17.1.0 pre 2.0 build 30919 (*)
 
 # MSVS2022 v17.1.0-pre.1.0
 01047862 [ C ] VS2022 v17.1.0 pre 1.0 build 30818
@@ -322,6 +594,15 @@
 01027862 [LNK] VS2022 v17.1.0 pre 1.0 build 30818
 01007862 [EXP] VS2022 v17.1.0 pre 1.0 build 30818
 01017862 [IMP] VS2022 v17.1.0 pre 1.0 build 30818
+01067862 [CIL] VS2022 v17.1.0 pre 1.0 build 30818 (*)
+01077862 [CI+] VS2022 v17.1.0 pre 1.0 build 30818 (*)
+01087862 [LTC] VS2022 v17.1.0 pre 1.0 build 30818 (*)
+01097862 [LT+] VS2022 v17.1.0 pre 1.0 build 30818 (*)
+010a7862 [LTM] VS2022 v17.1.0 pre 1.0 build 30818 (*)
+010b7862 [PGO] VS2022 v17.1.0 pre 1.0 build 30818 (*)
+010c7862 [PG+] VS2022 v17.1.0 pre 1.0 build 30818 (*)
+010d7862 [POC] VS2022 v17.1.0 pre 1.0 build 30818 (*)
+010e7862 [PO+] VS2022 v17.1.0 pre 1.0 build 30818 (*)
 
 # MSVS2022 v17.0.0-pre.7.0
 010477f1 [ C ] VS2022 v17.0.0 pre 7.0 build 30705
@@ -331,6 +612,15 @@
 010277f1 [LNK] VS2022 v17.0.0 pre 7.0 build 30705
 010077f1 [EXP] VS2022 v17.0.0 pre 7.0 build 30705
 010177f1 [IMP] VS2022 v17.0.0 pre 7.0 build 30705
+010677f1 [CIL] VS2022 v17.0.0 pre 7.0 build 30705 (*)
+010777f1 [CI+] VS2022 v17.0.0 pre 7.0 build 30705 (*)
+010877f1 [LTC] VS2022 v17.0.0 pre 7.0 build 30705 (*)
+010977f1 [LT+] VS2022 v17.0.0 pre 7.0 build 30705 (*)
+010a77f1 [LTM] VS2022 v17.0.0 pre 7.0 build 30705 (*)
+010b77f1 [PGO] VS2022 v17.0.0 pre 7.0 build 30705 (*)
+010c77f1 [PG+] VS2022 v17.0.0 pre 7.0 build 30705 (*)
+010d77f1 [POC] VS2022 v17.0.0 pre 7.0 build 30705 (*)
+010e77f1 [PO+] VS2022 v17.0.0 pre 7.0 build 30705 (*)
 
 # MSVS2022 v17.0.0-pre.5.0
 010477f0 [ C ] VS2022 v17.0.0 pre 5.0 build 30704
@@ -340,6 +630,15 @@
 010277f0 [LNK] VS2022 v17.0.0 pre 5.0 build 30704
 010077f0 [EXP] VS2022 v17.0.0 pre 5.0 build 30704
 010177f0 [IMP] VS2022 v17.0.0 pre 5.0 build 30704
+010677f0 [CIL] VS2022 v17.0.0 pre 5.0 build 30704 (*)
+010777f0 [CI+] VS2022 v17.0.0 pre 5.0 build 30704 (*)
+010877f0 [LTC] VS2022 v17.0.0 pre 5.0 build 30704 (*)
+010977f0 [LT+] VS2022 v17.0.0 pre 5.0 build 30704 (*)
+010a77f0 [LTM] VS2022 v17.0.0 pre 5.0 build 30704 (*)
+010b77f0 [PGO] VS2022 v17.0.0 pre 5.0 build 30704 (*)
+010c77f0 [PG+] VS2022 v17.0.0 pre 5.0 build 30704 (*)
+010d77f0 [POC] VS2022 v17.0.0 pre 5.0 build 30704 (*)
+010e77f0 [PO+] VS2022 v17.0.0 pre 5.0 build 30704 (*)
 
 # MSVS2022 v17.0.0-pre.4.0
 01047740 [ C ] VS2022 v17.0.0 pre 4.0 build 30528
@@ -349,6 +648,15 @@
 01027740 [LNK] VS2022 v17.0.0 pre 4.0 build 30528
 01007740 [EXP] VS2022 v17.0.0 pre 4.0 build 30528
 01017740 [IMP] VS2022 v17.0.0 pre 4.0 build 30528
+01067740 [CIL] VS2022 v17.0.0 pre 4.0 build 30528 (*)
+01077740 [CI+] VS2022 v17.0.0 pre 4.0 build 30528 (*)
+01087740 [LTC] VS2022 v17.0.0 pre 4.0 build 30528 (*)
+01097740 [LT+] VS2022 v17.0.0 pre 4.0 build 30528 (*)
+010a7740 [LTM] VS2022 v17.0.0 pre 4.0 build 30528 (*)
+010b7740 [PGO] VS2022 v17.0.0 pre 4.0 build 30528 (*)
+010c7740 [PG+] VS2022 v17.0.0 pre 4.0 build 30528 (*)
+010d7740 [POC] VS2022 v17.0.0 pre 4.0 build 30528 (*)
+010e7740 [PO+] VS2022 v17.0.0 pre 4.0 build 30528 (*)
 
 # MSVS2022 v17.0.0-pre-3.1
 010476d7 [ C ] VS2022 v17.0.0 pre 3.1 build 30423
@@ -358,6 +666,15 @@
 010276d7 [LNK] VS2022 v17.0.0 pre 3.1 build 30423
 010076d7 [EXP] VS2022 v17.0.0 pre 3.1 build 30423
 010176d7 [IMP] VS2022 v17.0.0 pre 3.1 build 30423
+010676d7 [CIL] VS2022 v17.0.0 pre 3.1 build 30423 (*)
+010776d7 [CI+] VS2022 v17.0.0 pre 3.1 build 30423 (*)
+010876d7 [LTC] VS2022 v17.0.0 pre 3.1 build 30423 (*)
+010976d7 [LT+] VS2022 v17.0.0 pre 3.1 build 30423 (*)
+010a76d7 [LTM] VS2022 v17.0.0 pre 3.1 build 30423 (*)
+010b76d7 [PGO] VS2022 v17.0.0 pre 3.1 build 30423 (*)
+010c76d7 [PG+] VS2022 v17.0.0 pre 3.1 build 30423 (*)
+010d76d7 [POC] VS2022 v17.0.0 pre 3.1 build 30423 (*)
+010e76d7 [PO+] VS2022 v17.0.0 pre 3.1 build 30423 (*)
 
 # MSVS2022 v17.0.0-preview2
 010476c1 [ C ] VS2022 v17.0.0 preview2 build 30401
@@ -367,6 +684,15 @@
 010276c1 [LNK] VS2022 v17.0.0 preview2 build 30401
 010076c1 [EXP] VS2022 v17.0.0 preview2 build 30401
 010176c1 [IMP] VS2022 v17.0.0 preview2 build 30401
+010676c1 [CIL] VS2022 v17.0.0 preview2 build 30401 (*)
+010776c1 [CI+] VS2022 v17.0.0 preview2 build 30401 (*)
+010876c1 [LTC] VS2022 v17.0.0 preview2 build 30401 (*)
+010976c1 [LT+] VS2022 v17.0.0 preview2 build 30401 (*)
+010a76c1 [LTM] VS2022 v17.0.0 preview2 build 30401 (*)
+010b76c1 [PGO] VS2022 v17.0.0 preview2 build 30401 (*)
+010c76c1 [PG+] VS2022 v17.0.0 preview2 build 30401 (*)
+010d76c1 [POC] VS2022 v17.0.0 preview2 build 30401 (*)
+010e76c1 [PO+] VS2022 v17.0.0 preview2 build 30401 (*)
 
 # MSVS2019 v16.11.24
 # MSVS2019 v16.11.25
@@ -381,6 +707,11 @@
 010975c4 [LT+] VS2019 v16.11.24 build 30148
 010b75c4 [PGO] VS2019 v16.11.24 build 30148
 010c75c4 [PG+] VS2019 v16.11.24 build 30148
+010675c4 [CIL] VS2019 v16.11.24 build 30148 (*)
+010775c4 [CI+] VS2019 v16.11.24 build 30148 (*)
+010a75c4 [LTM] VS2019 v16.11.24 build 30148 (*)
+010d75c4 [POC] VS2019 v16.11.24 build 30148 (*)
+010e75c4 [PO+] VS2019 v16.11.24 build 30148 (*)
 
 # MSVS2019 v16.11.21
 010475c3 [ C ] VS2019 v16.11.21 build 30147
@@ -390,6 +721,15 @@
 010275c3 [LNK] VS2019 v16.11.21 build 30147
 010075c3 [EXP] VS2019 v16.11.21 build 30147
 010175c3 [IMP] VS2019 v16.11.21 build 30147
+010675c3 [CIL] VS2019 v16.11.21 build 30147 (*)
+010775c3 [CI+] VS2019 v16.11.21 build 30147 (*)
+010875c3 [LTC] VS2019 v16.11.21 build 30147 (*)
+010975c3 [LT+] VS2019 v16.11.21 build 30147 (*)
+010a75c3 [LTM] VS2019 v16.11.21 build 30147 (*)
+010b75c3 [PGO] VS2019 v16.11.21 build 30147 (*)
+010c75c3 [PG+] VS2019 v16.11.21 build 30147 (*)
+010d75c3 [POC] VS2019 v16.11.21 build 30147 (*)
+010e75c3 [PO+] VS2019 v16.11.21 build 30147 (*)
 
 # MSVS2019 v16.11.17
 010475c2 [ C ] VS2019 v16.11.17 build 30146
@@ -399,6 +739,15 @@
 010275c2 [LNK] VS2019 v16.11.17 build 30146
 010075c2 [EXP] VS2019 v16.11.17 build 30146
 010175c2 [IMP] VS2019 v16.11.17 build 30146
+010675c2 [CIL] VS2019 v16.11.17 build 30146 (*)
+010775c2 [CI+] VS2019 v16.11.17 build 30146 (*)
+010875c2 [LTC] VS2019 v16.11.17 build 30146 (*)
+010975c2 [LT+] VS2019 v16.11.17 build 30146 (*)
+010a75c2 [LTM] VS2019 v16.11.17 build 30146 (*)
+010b75c2 [PGO] VS2019 v16.11.17 build 30146 (*)
+010c75c2 [PG+] VS2019 v16.11.17 build 30146 (*)
+010d75c2 [POC] VS2019 v16.11.17 build 30146 (*)
+010e75c2 [PO+] VS2019 v16.11.17 build 30146 (*)
 
 # MSVS2019 v16.11.15
 010475c1 [ C ] VS2019 v16.11.15 build 30145
@@ -408,6 +757,15 @@
 010275c1 [LNK] VS2019 v16.11.15 build 30145
 010075c1 [EXP] VS2019 v16.11.15 build 30145
 010175c1 [IMP] VS2019 v16.11.15 build 30145
+010675c1 [CIL] VS2019 v16.11.15 build 30145 (*)
+010775c1 [CI+] VS2019 v16.11.15 build 30145 (*)
+010875c1 [LTC] VS2019 v16.11.15 build 30145 (*)
+010975c1 [LT+] VS2019 v16.11.15 build 30145 (*)
+010a75c1 [LTM] VS2019 v16.11.15 build 30145 (*)
+010b75c1 [PGO] VS2019 v16.11.15 build 30145 (*)
+010c75c1 [PG+] VS2019 v16.11.15 build 30145 (*)
+010d75c1 [POC] VS2019 v16.11.15 build 30145 (*)
+010e75c1 [PO+] VS2019 v16.11.15 build 30145 (*)
 
 # MSVS2019 v16.11.14
 # from https://walbourn.github.io/vs-2019-update-11/
@@ -418,6 +776,15 @@
 010275c0 [LNK] VS2019 v16.11.14 build 30144 (*)
 010075c0 [EXP] VS2019 v16.11.14 build 30144 (*)
 010175c0 [IMP] VS2019 v16.11.14 build 30144 (*)
+010675c0 [CIL] VS2019 v16.11.14 build 30144 (*)
+010775c0 [CI+] VS2019 v16.11.14 build 30144 (*)
+010875c0 [LTC] VS2019 v16.11.14 build 30144 (*)
+010975c0 [LT+] VS2019 v16.11.14 build 30144 (*)
+010a75c0 [LTM] VS2019 v16.11.14 build 30144 (*)
+010b75c0 [PGO] VS2019 v16.11.14 build 30144 (*)
+010c75c0 [PG+] VS2019 v16.11.14 build 30144 (*)
+010d75c0 [POC] VS2019 v16.11.14 build 30144 (*)
+010e75c0 [PO+] VS2019 v16.11.14 build 30144 (*)
 
 # MSVS2019 v16.11.13
 010475bf [ C ] VS2019 v16.11.13 build 30143
@@ -427,6 +794,15 @@
 010275bf [LNK] VS2019 v16.11.13 build 30143
 010075bf [EXP] VS2019 v16.11.13 build 30143
 010175bf [IMP] VS2019 v16.11.13 build 30143
+010675bf [CIL] VS2019 v16.11.13 build 30143 (*)
+010775bf [CI+] VS2019 v16.11.13 build 30143 (*)
+010875bf [LTC] VS2019 v16.11.13 build 30143 (*)
+010975bf [LT+] VS2019 v16.11.13 build 30143 (*)
+010a75bf [LTM] VS2019 v16.11.13 build 30143 (*)
+010b75bf [PGO] VS2019 v16.11.13 build 30143 (*)
+010c75bf [PG+] VS2019 v16.11.13 build 30143 (*)
+010d75bf [POC] VS2019 v16.11.13 build 30143 (*)
+010e75bf [PO+] VS2019 v16.11.13 build 30143 (*)
 
 # MSVS2019 v16.11.12
 # from https://walbourn.github.io/vs-2019-update-11/
@@ -437,6 +813,15 @@
 010275be [LNK] VS2019 v16.11.12 build 30142 (*)
 010075be [EXP] VS2019 v16.11.12 build 30142 (*)
 010175be [IMP] VS2019 v16.11.12 build 30142 (*)
+010675be [CIL] VS2019 v16.11.12 build 30142 (*)
+010775be [CI+] VS2019 v16.11.12 build 30142 (*)
+010875be [LTC] VS2019 v16.11.12 build 30142 (*)
+010975be [LT+] VS2019 v16.11.12 build 30142 (*)
+010a75be [LTM] VS2019 v16.11.12 build 30142 (*)
+010b75be [PGO] VS2019 v16.11.12 build 30142 (*)
+010c75be [PG+] VS2019 v16.11.12 build 30142 (*)
+010d75be [POC] VS2019 v16.11.12 build 30142 (*)
+010e75be [PO+] VS2019 v16.11.12 build 30142 (*)
 
 # MSVS2019 v16.11.11
 # from https://walbourn.github.io/vs-2019-update-11/
@@ -447,6 +832,15 @@
 010275bd [LNK] VS2019 v16.11.11 build 30141 (*)
 010075bd [EXP] VS2019 v16.11.11 build 30141 (*)
 010175bd [IMP] VS2019 v16.11.11 build 30141 (*)
+010675bd [CIL] VS2019 v16.11.11 build 30141 (*)
+010775bd [CI+] VS2019 v16.11.11 build 30141 (*)
+010875bd [LTC] VS2019 v16.11.11 build 30141 (*)
+010975bd [LT+] VS2019 v16.11.11 build 30141 (*)
+010a75bd [LTM] VS2019 v16.11.11 build 30141 (*)
+010b75bd [PGO] VS2019 v16.11.11 build 30141 (*)
+010c75bd [PG+] VS2019 v16.11.11 build 30141 (*)
+010d75bd [POC] VS2019 v16.11.11 build 30141 (*)
+010e75bd [PO+] VS2019 v16.11.11 build 30141 (*)
 
 # MSVS2019 v16.11.10
 010475bc [ C ] VS2019 v16.11.10 build 30140
@@ -456,6 +850,15 @@
 010275bc [LNK] VS2019 v16.11.10 build 30140
 010075bc [EXP] VS2019 v16.11.10 build 30140
 010175bc [IMP] VS2019 v16.11.10 build 30140
+010675bc [CIL] VS2019 v16.11.10 build 30140 (*)
+010775bc [CI+] VS2019 v16.11.10 build 30140 (*)
+010875bc [LTC] VS2019 v16.11.10 build 30140 (*)
+010975bc [LT+] VS2019 v16.11.10 build 30140 (*)
+010a75bc [LTM] VS2019 v16.11.10 build 30140 (*)
+010b75bc [PGO] VS2019 v16.11.10 build 30140 (*)
+010c75bc [PG+] VS2019 v16.11.10 build 30140 (*)
+010d75bc [POC] VS2019 v16.11.10 build 30140 (*)
+010e75bc [PO+] VS2019 v16.11.10 build 30140 (*)
 
 # MSVS2019 v16.11.9
 010475bb [ C ] VS2019 v16.11.9 build 30139
@@ -465,6 +868,15 @@
 010275bb [LNK] VS2019 v16.11.9 build 30139
 010075bb [EXP] VS2019 v16.11.9 build 30139
 010175bb [IMP] VS2019 v16.11.9 build 30139
+010675bb [CIL] VS2019 v16.11.9 build 30139 (*)
+010775bb [CI+] VS2019 v16.11.9 build 30139 (*)
+010875bb [LTC] VS2019 v16.11.9 build 30139 (*)
+010975bb [LT+] VS2019 v16.11.9 build 30139 (*)
+010a75bb [LTM] VS2019 v16.11.9 build 30139 (*)
+010b75bb [PGO] VS2019 v16.11.9 build 30139 (*)
+010c75bb [PG+] VS2019 v16.11.9 build 30139 (*)
+010d75bb [POC] VS2019 v16.11.9 build 30139 (*)
+010e75bb [PO+] VS2019 v16.11.9 build 30139 (*)
 
 # MSVS2019 v16.11.8
 010475ba [ C ] VS2019 v16.11.8 build 30138
@@ -474,6 +886,15 @@
 010275ba [LNK] VS2019 v16.11.8 build 30138
 010075ba [EXP] VS2019 v16.11.8 build 30138
 010175ba [IMP] VS2019 v16.11.8 build 30138
+010675ba [CIL] VS2019 v16.11.8 build 30138 (*)
+010775ba [CI+] VS2019 v16.11.8 build 30138 (*)
+010875ba [LTC] VS2019 v16.11.8 build 30138 (*)
+010975ba [LT+] VS2019 v16.11.8 build 30138 (*)
+010a75ba [LTM] VS2019 v16.11.8 build 30138 (*)
+010b75ba [PGO] VS2019 v16.11.8 build 30138 (*)
+010c75ba [PG+] VS2019 v16.11.8 build 30138 (*)
+010d75ba [POC] VS2019 v16.11.8 build 30138 (*)
+010e75ba [PO+] VS2019 v16.11.8 build 30138 (*)
 
 # MSVS2019 v16.11.6
 010475b9 [ C ] VS2019 v16.11.6 build 30137
@@ -483,6 +904,15 @@
 010275b9 [LNK] VS2019 v16.11.6 build 30137
 010075b9 [EXP] VS2019 v16.11.6 build 30137
 010175b9 [IMP] VS2019 v16.11.6 build 30137
+010675b9 [CIL] VS2019 v16.11.6 build 30137 (*)
+010775b9 [CI+] VS2019 v16.11.6 build 30137 (*)
+010875b9 [LTC] VS2019 v16.11.6 build 30137 (*)
+010975b9 [LT+] VS2019 v16.11.6 build 30137 (*)
+010a75b9 [LTM] VS2019 v16.11.6 build 30137 (*)
+010b75b9 [PGO] VS2019 v16.11.6 build 30137 (*)
+010c75b9 [PG+] VS2019 v16.11.6 build 30137 (*)
+010d75b9 [POC] VS2019 v16.11.6 build 30137 (*)
+010e75b9 [PO+] VS2019 v16.11.6 build 30137 (*)
 
 # MSVS2019 v16.11.5
 010475b8 [ C ] VS2019 v16.11.5 build 30136
@@ -492,6 +922,15 @@
 010275b8 [LNK] VS2019 v16.11.5 build 30136
 010075b8 [EXP] VS2019 v16.11.5 build 30136
 010175b8 [IMP] VS2019 v16.11.5 build 30136
+010675b8 [CIL] VS2019 v16.11.5 build 30136 (*)
+010775b8 [CI+] VS2019 v16.11.5 build 30136 (*)
+010875b8 [LTC] VS2019 v16.11.5 build 30136 (*)
+010975b8 [LT+] VS2019 v16.11.5 build 30136 (*)
+010a75b8 [LTM] VS2019 v16.11.5 build 30136 (*)
+010b75b8 [PGO] VS2019 v16.11.5 build 30136 (*)
+010c75b8 [PG+] VS2019 v16.11.5 build 30136 (*)
+010d75b8 [POC] VS2019 v16.11.5 build 30136 (*)
+010e75b8 [PO+] VS2019 v16.11.5 build 30136 (*)
 
 # MSVS2019 v16.11.1
 010475b5 [ C ] VS2019 v16.11.1 build 30133
@@ -501,6 +940,15 @@
 010275b5 [LNK] VS2019 v16.11.1 build 30133
 010075b5 [EXP] VS2019 v16.11.1 build 30133
 010175b5 [IMP] VS2019 v16.11.1 build 30133
+010675b5 [CIL] VS2019 v16.11.1 build 30133 (*)
+010775b5 [CI+] VS2019 v16.11.1 build 30133 (*)
+010875b5 [LTC] VS2019 v16.11.1 build 30133 (*)
+010975b5 [LT+] VS2019 v16.11.1 build 30133 (*)
+010a75b5 [LTM] VS2019 v16.11.1 build 30133 (*)
+010b75b5 [PGO] VS2019 v16.11.1 build 30133 (*)
+010c75b5 [PG+] VS2019 v16.11.1 build 30133 (*)
+010d75b5 [POC] VS2019 v16.11.1 build 30133 (*)
+010e75b5 [PO+] VS2019 v16.11.1 build 30133 (*)
 
 # MSVS2019 v16.10.4
 01047558 [ C ] VS2019 v16.10.4 build 30040
@@ -510,6 +958,15 @@
 01027558 [LNK] VS2019 v16.10.4 build 30040
 01007558 [EXP] VS2019 v16.10.4 build 30040
 01017558 [IMP] VS2019 v16.10.4 build 30040
+01067558 [CIL] VS2019 v16.10.4 build 30040 (*)
+01077558 [CI+] VS2019 v16.10.4 build 30040 (*)
+01087558 [LTC] VS2019 v16.10.4 build 30040 (*)
+01097558 [LT+] VS2019 v16.10.4 build 30040 (*)
+010a7558 [LTM] VS2019 v16.10.4 build 30040 (*)
+010b7558 [PGO] VS2019 v16.10.4 build 30040 (*)
+010c7558 [PG+] VS2019 v16.10.4 build 30040 (*)
+010d7558 [POC] VS2019 v16.10.4 build 30040 (*)
+010e7558 [PO+] VS2019 v16.10.4 build 30040 (*)
 
 # MSVS2019 v16.10.3
 01047556 [ C ] VS2019 v16.10.3 build 30038
@@ -519,6 +976,15 @@
 01027556 [LNK] VS2019 v16.10.3 build 30038
 01007556 [EXP] VS2019 v16.10.3 build 30038
 01017556 [IMP] VS2019 v16.10.3 build 30038
+01067556 [CIL] VS2019 v16.10.3 build 30038 (*)
+01077556 [CI+] VS2019 v16.10.3 build 30038 (*)
+01087556 [LTC] VS2019 v16.10.3 build 30038 (*)
+01097556 [LT+] VS2019 v16.10.3 build 30038 (*)
+010a7556 [LTM] VS2019 v16.10.3 build 30038 (*)
+010b7556 [PGO] VS2019 v16.10.3 build 30038 (*)
+010c7556 [PG+] VS2019 v16.10.3 build 30038 (*)
+010d7556 [POC] VS2019 v16.10.3 build 30038 (*)
+010e7556 [PO+] VS2019 v16.10.3 build 30038 (*)
 
 # MSVS2019 v16.10.0
 01047555 [ C ] VS2019 v16.10.0 build 30037
@@ -528,6 +994,15 @@
 01027555 [LNK] VS2019 v16.10.0 build 30037
 01007555 [EXP] VS2019 v16.10.0 build 30037
 01017555 [IMP] VS2019 v16.10.0 build 30037
+01067555 [CIL] VS2019 v16.10.0 build 30037 (*)
+01077555 [CI+] VS2019 v16.10.0 build 30037 (*)
+01087555 [LTC] VS2019 v16.10.0 build 30037 (*)
+01097555 [LT+] VS2019 v16.10.0 build 30037 (*)
+010a7555 [LTM] VS2019 v16.10.0 build 30037 (*)
+010b7555 [PGO] VS2019 v16.10.0 build 30037 (*)
+010c7555 [PG+] VS2019 v16.10.0 build 30037 (*)
+010d7555 [POC] VS2019 v16.10.0 build 30037 (*)
+010e7555 [PO+] VS2019 v16.10.0 build 30037 (*)
 
 # MSVS2019 v16.9.5
 010474db [ C ] VS2019 v16.9.5 build 29915
@@ -537,6 +1012,15 @@
 010274db [LNK] VS2019 v16.9.5 build 29915
 010074db [EXP] VS2019 v16.9.5 build 29915
 010174db [IMP] VS2019 v16.9.5 build 29915
+010674db [CIL] VS2019 v16.9.5 build 29915 (*)
+010774db [CI+] VS2019 v16.9.5 build 29915 (*)
+010874db [LTC] VS2019 v16.9.5 build 29915 (*)
+010974db [LT+] VS2019 v16.9.5 build 29915 (*)
+010a74db [LTM] VS2019 v16.9.5 build 29915 (*)
+010b74db [PGO] VS2019 v16.9.5 build 29915 (*)
+010c74db [PG+] VS2019 v16.9.5 build 29915 (*)
+010d74db [POC] VS2019 v16.9.5 build 29915 (*)
+010e74db [PO+] VS2019 v16.9.5 build 29915 (*)
 
 # MSVS2019 v16.9.4
 010474da [ C ] VS2019 v16.9.4 build 29914
@@ -546,6 +1030,15 @@
 010274da [LNK] VS2019 v16.9.4 build 29914
 010074da [EXP] VS2019 v16.9.4 build 29914
 010174da [IMP] VS2019 v16.9.4 build 29914
+010674da [CIL] VS2019 v16.9.4 build 29914 (*)
+010774da [CI+] VS2019 v16.9.4 build 29914 (*)
+010874da [LTC] VS2019 v16.9.4 build 29914 (*)
+010974da [LT+] VS2019 v16.9.4 build 29914 (*)
+010a74da [LTM] VS2019 v16.9.4 build 29914 (*)
+010b74da [PGO] VS2019 v16.9.4 build 29914 (*)
+010c74da [PG+] VS2019 v16.9.4 build 29914 (*)
+010d74da [POC] VS2019 v16.9.4 build 29914 (*)
+010e74da [PO+] VS2019 v16.9.4 build 29914 (*)
 
 # MSVS2019 v16.9.2
 010474d9 [ C ] VS2019 v16.9.2 build 29913
@@ -555,6 +1048,15 @@
 010274d9 [LNK] VS2019 v16.9.2 build 29913
 010074d9 [EXP] VS2019 v16.9.2 build 29913
 010174d9 [IMP] VS2019 v16.9.2 build 29913
+010674d9 [CIL] VS2019 v16.9.2 build 29913 (*)
+010774d9 [CI+] VS2019 v16.9.2 build 29913 (*)
+010874d9 [LTC] VS2019 v16.9.2 build 29913 (*)
+010974d9 [LT+] VS2019 v16.9.2 build 29913 (*)
+010a74d9 [LTM] VS2019 v16.9.2 build 29913 (*)
+010b74d9 [PGO] VS2019 v16.9.2 build 29913 (*)
+010c74d9 [PG+] VS2019 v16.9.2 build 29913 (*)
+010d74d9 [POC] VS2019 v16.9.2 build 29913 (*)
+010e74d9 [PO+] VS2019 v16.9.2 build 29913 (*)
 
 # MSVS2019 v16.9.0
 # from https://walbourn.github.io/vs-2019-update-9/
@@ -565,6 +1067,15 @@
 010274d6 [LNK] VS2019 v16.9.0 build 29910 (*)
 010074d6 [EXP] VS2019 v16.9.0 build 29910 (*)
 010174d6 [IMP] VS2019 v16.9.0 build 29910 (*)
+010674d6 [CIL] VS2019 v16.9.0 build 29910 (*)
+010774d6 [CI+] VS2019 v16.9.0 build 29910 (*)
+010874d6 [LTC] VS2019 v16.9.0 build 29910 (*)
+010974d6 [LT+] VS2019 v16.9.0 build 29910 (*)
+010a74d6 [LTM] VS2019 v16.9.0 build 29910 (*)
+010b74d6 [PGO] VS2019 v16.9.0 build 29910 (*)
+010c74d6 [PG+] VS2019 v16.9.0 build 29910 (*)
+010d74d6 [POC] VS2019 v16.9.0 build 29910 (*)
+010e74d6 [PO+] VS2019 v16.9.0 build 29910 (*)
 
 # MSVS2019 v16.8.5
 01047299 [ C ] VS2019 v16.8.5 build 29337
@@ -574,6 +1085,15 @@
 01027299 [LNK] VS2019 v16.8.5 build 29337
 01007299 [EXP] VS2019 v16.8.5 build 29337
 01017299 [IMP] VS2019 v16.8.5 build 29337
+01067299 [CIL] VS2019 v16.8.5 build 29337 (*)
+01077299 [CI+] VS2019 v16.8.5 build 29337 (*)
+01087299 [LTC] VS2019 v16.8.5 build 29337 (*)
+01097299 [LT+] VS2019 v16.8.5 build 29337 (*)
+010a7299 [LTM] VS2019 v16.8.5 build 29337 (*)
+010b7299 [PGO] VS2019 v16.8.5 build 29337 (*)
+010c7299 [PG+] VS2019 v16.8.5 build 29337 (*)
+010d7299 [POC] VS2019 v16.8.5 build 29337 (*)
+010e7299 [PO+] VS2019 v16.8.5 build 29337 (*)
 
 # MSVS2019 v16.8.4
 01047298 [ C ] VS2019 v16.8.4 build 29336
@@ -583,6 +1103,15 @@
 01027298 [LNK] VS2019 v16.8.4 build 29336
 01007298 [EXP] VS2019 v16.8.4 build 29336
 01017298 [IMP] VS2019 v16.8.4 build 29336
+01067298 [CIL] VS2019 v16.8.4 build 29336 (*)
+01077298 [CI+] VS2019 v16.8.4 build 29336 (*)
+01087298 [LTC] VS2019 v16.8.4 build 29336 (*)
+01097298 [LT+] VS2019 v16.8.4 build 29336 (*)
+010a7298 [LTM] VS2019 v16.8.4 build 29336 (*)
+010b7298 [PGO] VS2019 v16.8.4 build 29336 (*)
+010c7298 [PG+] VS2019 v16.8.4 build 29336 (*)
+010d7298 [POC] VS2019 v16.8.4 build 29336 (*)
+010e7298 [PO+] VS2019 v16.8.4 build 29336 (*)
 
 # MSVS2019 v16.8.3
 01047297 [ C ] VS2019 v16.8.3 build 29335
@@ -592,6 +1121,15 @@
 01027297 [LNK] VS2019 v16.8.3 build 29335
 01007297 [EXP] VS2019 v16.8.3 build 29335
 01017297 [IMP] VS2019 v16.8.3 build 29335
+01067297 [CIL] VS2019 v16.8.3 build 29335 (*)
+01077297 [CI+] VS2019 v16.8.3 build 29335 (*)
+01087297 [LTC] VS2019 v16.8.3 build 29335 (*)
+01097297 [LT+] VS2019 v16.8.3 build 29335 (*)
+010a7297 [LTM] VS2019 v16.8.3 build 29335 (*)
+010b7297 [PGO] VS2019 v16.8.3 build 29335 (*)
+010c7297 [PG+] VS2019 v16.8.3 build 29335 (*)
+010d7297 [POC] VS2019 v16.8.3 build 29335 (*)
+010e7297 [PO+] VS2019 v16.8.3 build 29335 (*)
 
 # MSVS2019 v16.8.2
 01047296 [ C ] VS2019 v16.8.2 build 29334
@@ -601,6 +1139,15 @@
 01027296 [LNK] VS2019 v16.8.2 build 29334
 01007296 [EXP] VS2019 v16.8.2 build 29334
 01017296 [IMP] VS2019 v16.8.2 build 29334
+01067296 [CIL] VS2019 v16.8.2 build 29334 (*)
+01077296 [CI+] VS2019 v16.8.2 build 29334 (*)
+01087296 [LTC] VS2019 v16.8.2 build 29334 (*)
+01097296 [LT+] VS2019 v16.8.2 build 29334 (*)
+010a7296 [LTM] VS2019 v16.8.2 build 29334 (*)
+010b7296 [PGO] VS2019 v16.8.2 build 29334 (*)
+010c7296 [PG+] VS2019 v16.8.2 build 29334 (*)
+010d7296 [POC] VS2019 v16.8.2 build 29334 (*)
+010e7296 [PO+] VS2019 v16.8.2 build 29334 (*)
 
 # MSVS2019 v16.8.0
 # from https://walbourn.github.io/vs-2019-update-8/
@@ -611,6 +1158,15 @@
 01027295 [LNK] VS2019 v16.8.0 build 29333 (*)
 01007295 [EXP] VS2019 v16.8.0 build 29333 (*)
 01017295 [IMP] VS2019 v16.8.0 build 29333 (*)
+01067295 [CIL] VS2019 v16.8.0 build 29333 (*)
+01077295 [CI+] VS2019 v16.8.0 build 29333 (*)
+01087295 [LTC] VS2019 v16.8.0 build 29333 (*)
+01097295 [LT+] VS2019 v16.8.0 build 29333 (*)
+010a7295 [LTM] VS2019 v16.8.0 build 29333 (*)
+010b7295 [PGO] VS2019 v16.8.0 build 29333 (*)
+010c7295 [PG+] VS2019 v16.8.0 build 29333 (*)
+010d7295 [POC] VS2019 v16.8.0 build 29333 (*)
+010e7295 [PO+] VS2019 v16.8.0 build 29333 (*)
 
 # MSVS2019 v16.7.5
 010471b8 [ C ] VS2019 v16.7.5 build 29112
@@ -620,6 +1176,15 @@
 010271b8 [LNK] VS2019 v16.7.5 build 29112
 010071b8 [EXP] VS2019 v16.7.5 build 29112
 010171b8 [IMP] VS2019 v16.7.5 build 29112
+010671b8 [CIL] VS2019 v16.7.5 build 29112 (*)
+010771b8 [CI+] VS2019 v16.7.5 build 29112 (*)
+010871b8 [LTC] VS2019 v16.7.5 build 29112 (*)
+010971b8 [LT+] VS2019 v16.7.5 build 29112 (*)
+010a71b8 [LTM] VS2019 v16.7.5 build 29112 (*)
+010b71b8 [PGO] VS2019 v16.7.5 build 29112 (*)
+010c71b8 [PG+] VS2019 v16.7.5 build 29112 (*)
+010d71b8 [POC] VS2019 v16.7.5 build 29112 (*)
+010e71b8 [PO+] VS2019 v16.7.5 build 29112 (*)
 
 # MSVS2019 v16.7.1 .. 16.7.4
 010471b7 [ C ] VS2019 v16.7.1 build 29111
@@ -629,6 +1194,15 @@
 010271b7 [LNK] VS2019 v16.7.1 build 29111
 010071b7 [EXP] VS2019 v16.7.1 build 29111
 010171b7 [IMP] VS2019 v16.7.1 build 29111
+010671b7 [CIL] VS2019 v16.7.1 build 29111 (*)
+010771b7 [CI+] VS2019 v16.7.1 build 29111 (*)
+010871b7 [LTC] VS2019 v16.7.1 build 29111 (*)
+010971b7 [LT+] VS2019 v16.7.1 build 29111 (*)
+010a71b7 [LTM] VS2019 v16.7.1 build 29111 (*)
+010b71b7 [PGO] VS2019 v16.7.1 build 29111 (*)
+010c71b7 [PG+] VS2019 v16.7.1 build 29111 (*)
+010d71b7 [POC] VS2019 v16.7.1 build 29111 (*)
+010e71b7 [PO+] VS2019 v16.7.1 build 29111 (*)
 
 # MSVS2019 v16.7.0
 010471b6 [ C ] VS2019 v16.7.0 build 29110
@@ -638,6 +1212,15 @@
 010271b6 [LNK] VS2019 v16.7.0 build 29110
 010071b6 [EXP] VS2019 v16.7.0 build 29110
 010171b6 [IMP] VS2019 v16.7.0 build 29110
+010671b6 [CIL] VS2019 v16.7.0 build 29110 (*)
+010771b6 [CI+] VS2019 v16.7.0 build 29110 (*)
+010871b6 [LTC] VS2019 v16.7.0 build 29110 (*)
+010971b6 [LT+] VS2019 v16.7.0 build 29110 (*)
+010a71b6 [LTM] VS2019 v16.7.0 build 29110 (*)
+010b71b6 [PGO] VS2019 v16.7.0 build 29110 (*)
+010c71b6 [PG+] VS2019 v16.7.0 build 29110 (*)
+010d71b6 [POC] VS2019 v16.7.0 build 29110 (*)
+010e71b6 [PO+] VS2019 v16.7.0 build 29110 (*)
 
 # MSVS2019 v16.6.2 ... 16.6.5
 01047086 [ C ] VS2019 v16.6.2 build 28806
@@ -647,6 +1230,15 @@
 01027086 [LNK] VS2019 v16.6.2 build 28806
 01007086 [EXP] VS2019 v16.6.2 build 28806
 01017086 [IMP] VS2019 v16.6.2 build 28806
+01067086 [CIL] VS2019 v16.6.2 build 28806 (*)
+01077086 [CI+] VS2019 v16.6.2 build 28806 (*)
+01087086 [LTC] VS2019 v16.6.2 build 28806 (*)
+01097086 [LT+] VS2019 v16.6.2 build 28806 (*)
+010a7086 [LTM] VS2019 v16.6.2 build 28806 (*)
+010b7086 [PGO] VS2019 v16.6.2 build 28806 (*)
+010c7086 [PG+] VS2019 v16.6.2 build 28806 (*)
+010d7086 [POC] VS2019 v16.6.2 build 28806 (*)
+010e7086 [PO+] VS2019 v16.6.2 build 28806 (*)
 
 # MSVS2019 v16.6.0
 01047085 [ C ] VS2019 v16.6.0 build 28805
@@ -656,6 +1248,15 @@
 01027085 [LNK] VS2019 v16.6.0 build 28805
 01007085 [EXP] VS2019 v16.6.0 build 28805
 01017085 [IMP] VS2019 v16.6.0 build 28805
+01067085 [CIL] VS2019 v16.6.0 build 28805 (*)
+01077085 [CI+] VS2019 v16.6.0 build 28805 (*)
+01087085 [LTC] VS2019 v16.6.0 build 28805 (*)
+01097085 [LT+] VS2019 v16.6.0 build 28805 (*)
+010a7085 [LTM] VS2019 v16.6.0 build 28805 (*)
+010b7085 [PGO] VS2019 v16.6.0 build 28805 (*)
+010c7085 [PG+] VS2019 v16.6.0 build 28805 (*)
+010d7085 [POC] VS2019 v16.6.0 build 28805 (*)
+010e7085 [PO+] VS2019 v16.6.0 build 28805 (*)
 
 # MSVS2019 v16.5.5 (also 16.5.4)
 01046fc6 [ C ] VS2019 v16.5.5 build 28614
@@ -665,6 +1266,15 @@
 01026fc6 [LNK] VS2019 v16.5.5 build 28614
 01006fc6 [EXP] VS2019 v16.5.5 build 28614
 01016fc6 [IMP] VS2019 v16.5.5 build 28614
+01066fc6 [CIL] VS2019 v16.5.5 build 28614 (*)
+01076fc6 [CI+] VS2019 v16.5.5 build 28614 (*)
+01086fc6 [LTC] VS2019 v16.5.5 build 28614 (*)
+01096fc6 [LT+] VS2019 v16.5.5 build 28614 (*)
+010a6fc6 [LTM] VS2019 v16.5.5 build 28614 (*)
+010b6fc6 [PGO] VS2019 v16.5.5 build 28614 (*)
+010c6fc6 [PG+] VS2019 v16.5.5 build 28614 (*)
+010d6fc6 [POC] VS2019 v16.5.5 build 28614 (*)
+010e6fc6 [PO+] VS2019 v16.5.5 build 28614 (*)
 
 # Visual Studio 2019 version 16.5.2 (values are interpolated)
 # source: https://walbourn.github.io/vs-2019-update-5/
@@ -675,6 +1285,15 @@
 01026fc4 [LNK] VS2019 v16.5.2 build 28612 (*)
 01016fc4 [IMP] VS2019 v16.5.2 build 28612 (*)
 01006fc4 [EXP] VS2019 v16.5.2 build 28612 (*)
+01066fc4 [CIL] VS2019 v16.5.2 build 28612 (*)
+01076fc4 [CI+] VS2019 v16.5.2 build 28612 (*)
+01086fc4 [LTC] VS2019 v16.5.2 build 28612 (*)
+01096fc4 [LT+] VS2019 v16.5.2 build 28612 (*)
+010a6fc4 [LTM] VS2019 v16.5.2 build 28612 (*)
+010b6fc4 [PGO] VS2019 v16.5.2 build 28612 (*)
+010c6fc4 [PG+] VS2019 v16.5.2 build 28612 (*)
+010d6fc4 [POC] VS2019 v16.5.2 build 28612 (*)
+010e6fc4 [PO+] VS2019 v16.5.2 build 28612 (*)
 
 # Visual Studio 2019 version 16.5.1 (values are interpolated)
 01046fc3 [ C ] VS2019 v16.5.1 build 28611 (*)
@@ -684,6 +1303,15 @@
 01026fc3 [LNK] VS2019 v16.5.1 build 28611 (*)
 01016fc3 [IMP] VS2019 v16.5.1 build 28611 (*)
 01006fc3 [EXP] VS2019 v16.5.1 build 28611 (*)
+01066fc3 [CIL] VS2019 v16.5.1 build 28611 (*)
+01076fc3 [CI+] VS2019 v16.5.1 build 28611 (*)
+01086fc3 [LTC] VS2019 v16.5.1 build 28611 (*)
+01096fc3 [LT+] VS2019 v16.5.1 build 28611 (*)
+010a6fc3 [LTM] VS2019 v16.5.1 build 28611 (*)
+010b6fc3 [PGO] VS2019 v16.5.1 build 28611 (*)
+010c6fc3 [PG+] VS2019 v16.5.1 build 28611 (*)
+010d6fc3 [POC] VS2019 v16.5.1 build 28611 (*)
+010e6fc3 [PO+] VS2019 v16.5.1 build 28611 (*)
 
 # Visual Studio 2019 version 16.5.0 (values are interpolated)
 # source: https://walbourn.github.io/vs-2019-update-5/
@@ -694,6 +1322,15 @@
 01026fc2 [LNK] VS2019 v16.5.0 build 28610 (*)
 01016fc2 [IMP] VS2019 v16.5.0 build 28610 (*)
 01006fc2 [EXP] VS2019 v16.5.0 build 28610 (*)
+01066fc2 [CIL] VS2019 v16.5.0 build 28610 (*)
+01076fc2 [CI+] VS2019 v16.5.0 build 28610 (*)
+01086fc2 [LTC] VS2019 v16.5.0 build 28610 (*)
+01096fc2 [LT+] VS2019 v16.5.0 build 28610 (*)
+010a6fc2 [LTM] VS2019 v16.5.0 build 28610 (*)
+010b6fc2 [PGO] VS2019 v16.5.0 build 28610 (*)
+010c6fc2 [PG+] VS2019 v16.5.0 build 28610 (*)
+010d6fc2 [POC] VS2019 v16.5.0 build 28610 (*)
+010e6fc2 [PO+] VS2019 v16.5.0 build 28610 (*)
 
 # MSVS2019 v16.4.6 (values are interpolated)
 # source: https://walbourn.github.io/vs-2019-update-4/
@@ -704,6 +1341,15 @@
 01026e9f [LNK] VS2019 v16.4.6 build 28319 (*)
 01006e9f [EXP] VS2019 v16.4.6 build 28319 (*)
 01016e9f [IMP] VS2019 v16.4.6 build 28319 (*)
+01066e9f [CIL] VS2019 v16.4.6 build 28319 (*)
+01076e9f [CI+] VS2019 v16.4.6 build 28319 (*)
+01086e9f [LTC] VS2019 v16.4.6 build 28319 (*)
+01096e9f [LT+] VS2019 v16.4.6 build 28319 (*)
+010a6e9f [LTM] VS2019 v16.4.6 build 28319 (*)
+010b6e9f [PGO] VS2019 v16.4.6 build 28319 (*)
+010c6e9f [PG+] VS2019 v16.4.6 build 28319 (*)
+010d6e9f [POC] VS2019 v16.4.6 build 28319 (*)
+010e6e9f [PO+] VS2019 v16.4.6 build 28319 (*)
 
 # MSVS2019 v16.4.4 (values are interpolated)
 # source: https://walbourn.github.io/vs-2019-update-4/
@@ -714,6 +1360,15 @@
 01026e9c [LNK] VS2019 v16.4.4 build 28316 (*)
 01006e9c [EXP] VS2019 v16.4.4 build 28316 (*)
 01016e9c [IMP] VS2019 v16.4.4 build 28316 (*)
+01066e9c [CIL] VS2019 v16.4.4 build 28316 (*)
+01076e9c [CI+] VS2019 v16.4.4 build 28316 (*)
+01086e9c [LTC] VS2019 v16.4.4 build 28316 (*)
+01096e9c [LT+] VS2019 v16.4.4 build 28316 (*)
+010a6e9c [LTM] VS2019 v16.4.4 build 28316 (*)
+010b6e9c [PGO] VS2019 v16.4.4 build 28316 (*)
+010c6e9c [PG+] VS2019 v16.4.4 build 28316 (*)
+010d6e9c [POC] VS2019 v16.4.4 build 28316 (*)
+010e6e9c [PO+] VS2019 v16.4.4 build 28316 (*)
 
 # MSVS2019 v16.4.3
 01046e9b [ C ] VS2019 v16.4.3 build 28315
@@ -723,6 +1378,15 @@
 01026e9b [LNK] VS2019 v16.4.3 build 28315
 01006e9b [EXP] VS2019 v16.4.3 build 28315
 01016e9b [IMP] VS2019 v16.4.3 build 28315
+01066e9b [CIL] VS2019 v16.4.3 build 28315 (*)
+01076e9b [CI+] VS2019 v16.4.3 build 28315 (*)
+01086e9b [LTC] VS2019 v16.4.3 build 28315 (*)
+01096e9b [LT+] VS2019 v16.4.3 build 28315 (*)
+010a6e9b [LTM] VS2019 v16.4.3 build 28315 (*)
+010b6e9b [PGO] VS2019 v16.4.3 build 28315 (*)
+010c6e9b [PG+] VS2019 v16.4.3 build 28315 (*)
+010d6e9b [POC] VS2019 v16.4.3 build 28315 (*)
+010e6e9b [PO+] VS2019 v16.4.3 build 28315 (*)
 
 # Visual Studio 2019 version 16.4.0 (values are interpolated)
 01046e9a [ C ] VS2019 v16.4.0 build 28314 (*)
@@ -732,6 +1396,15 @@
 01026e9a [LNK] VS2019 v16.4.0 build 28314 (*)
 01016e9a [IMP] VS2019 v16.4.0 build 28314 (*)
 01006e9a [EXP] VS2019 v16.4.0 build 28314 (*)
+01066e9a [CIL] VS2019 v16.4.0 build 28314 (*)
+01076e9a [CI+] VS2019 v16.4.0 build 28314 (*)
+01086e9a [LTC] VS2019 v16.4.0 build 28314 (*)
+01096e9a [LT+] VS2019 v16.4.0 build 28314 (*)
+010a6e9a [LTM] VS2019 v16.4.0 build 28314 (*)
+010b6e9a [PGO] VS2019 v16.4.0 build 28314 (*)
+010c6e9a [PG+] VS2019 v16.4.0 build 28314 (*)
+010d6e9a [POC] VS2019 v16.4.0 build 28314 (*)
+010e6e9a [PO+] VS2019 v16.4.0 build 28314 (*)
 
 # Visual Studio 2019 version 16.3.2 (values are interpolated)
 01046dc9 [ C ] VS2019 v16.3.2 build 28105 (*)
@@ -741,6 +1414,15 @@
 01026dc9 [LNK] VS2019 v16.3.2 build 28105 (*)
 01016dc9 [IMP] VS2019 v16.3.2 build 28105 (*)
 01006dc9 [EXP] VS2019 v16.3.2 build 28105 (*)
+01066dc9 [CIL] VS2019 v16.3.2 build 28105 (*)
+01076dc9 [CI+] VS2019 v16.3.2 build 28105 (*)
+01086dc9 [LTC] VS2019 v16.3.2 build 28105 (*)
+01096dc9 [LT+] VS2019 v16.3.2 build 28105 (*)
+010a6dc9 [LTM] VS2019 v16.3.2 build 28105 (*)
+010b6dc9 [PGO] VS2019 v16.3.2 build 28105 (*)
+010c6dc9 [PG+] VS2019 v16.3.2 build 28105 (*)
+010d6dc9 [POC] VS2019 v16.3.2 build 28105 (*)
+010e6dc9 [PO+] VS2019 v16.3.2 build 28105 (*)
 
 # Visual Studio 2019 version 16.2.3 (values are interpolated)
 01046d01 [ C ] VS2019 v16.2.3 build 27905 (*)
@@ -750,6 +1432,15 @@
 01026d01 [LNK] VS2019 v16.2.3 build 27905 (*)
 01016d01 [IMP] VS2019 v16.2.3 build 27905 (*)
 01006d01 [EXP] VS2019 v16.2.3 build 27905 (*)
+01066d01 [CIL] VS2019 v16.2.3 build 27905 (*)
+01076d01 [CI+] VS2019 v16.2.3 build 27905 (*)
+01086d01 [LTC] VS2019 v16.2.3 build 27905 (*)
+01096d01 [LT+] VS2019 v16.2.3 build 27905 (*)
+010a6d01 [LTM] VS2019 v16.2.3 build 27905 (*)
+010b6d01 [PGO] VS2019 v16.2.3 build 27905 (*)
+010c6d01 [PG+] VS2019 v16.2.3 build 27905 (*)
+010d6d01 [POC] VS2019 v16.2.3 build 27905 (*)
+010e6d01 [PO+] VS2019 v16.2.3 build 27905 (*)
 
 # Visual Studio 2019 version 16.1.2 (values are interpolated)
 01046c36 [ C ] VS2019 v16.1.2 build 27702 (*)
@@ -759,6 +1450,15 @@
 01026c36 [LNK] VS2019 v16.1.2 build 27702 (*)
 01016c36 [IMP] VS2019 v16.1.2 build 27702 (*)
 01006c36 [EXP] VS2019 v16.1.2 build 27702 (*)
+01066c36 [CIL] VS2019 v16.1.2 build 27702 (*)
+01076c36 [CI+] VS2019 v16.1.2 build 27702 (*)
+01086c36 [LTC] VS2019 v16.1.2 build 27702 (*)
+01096c36 [LT+] VS2019 v16.1.2 build 27702 (*)
+010a6c36 [LTM] VS2019 v16.1.2 build 27702 (*)
+010b6c36 [PGO] VS2019 v16.1.2 build 27702 (*)
+010c6c36 [PG+] VS2019 v16.1.2 build 27702 (*)
+010d6c36 [POC] VS2019 v16.1.2 build 27702 (*)
+010e6c36 [PO+] VS2019 v16.1.2 build 27702 (*)
 
 # MSVS2019 v16.0.0
 01046b74 [ C ] VS2019 v16.0.0 build 27508
@@ -768,6 +1468,15 @@
 01026b74 [LNK] VS2019 v16.0.0 build 27508
 01006b74 [EXP] VS2019 v16.0.0 build 27508
 01016b74 [IMP] VS2019 v16.0.0 build 27508
+01066b74 [CIL] VS2019 v16.0.0 build 27508 (*)
+01076b74 [CI+] VS2019 v16.0.0 build 27508 (*)
+01086b74 [LTC] VS2019 v16.0.0 build 27508 (*)
+01096b74 [LT+] VS2019 v16.0.0 build 27508 (*)
+010a6b74 [LTM] VS2019 v16.0.0 build 27508 (*)
+010b6b74 [PGO] VS2019 v16.0.0 build 27508 (*)
+010c6b74 [PG+] VS2019 v16.0.0 build 27508 (*)
+010d6b74 [POC] VS2019 v16.0.0 build 27508 (*)
+010e6b74 [PO+] VS2019 v16.0.0 build 27508 (*)
 
 # Visual Studio 2017 version 15.9.11 (values are interpolated)
 01046996 [ C ] VS2017 v15.9.11 build 27030 (*)
@@ -777,6 +1486,15 @@
 01026996 [LNK] VS2017 v15.9.11 build 27030 (*)
 01016996 [IMP] VS2017 v15.9.11 build 27030 (*)
 01006996 [EXP] VS2017 v15.9.11 build 27030 (*)
+01066996 [CIL] VS2017 v15.9.11 build 27030 (*)
+01076996 [CI+] VS2017 v15.9.11 build 27030 (*)
+01086996 [LTC] VS2017 v15.9.11 build 27030 (*)
+01096996 [LT+] VS2017 v15.9.11 build 27030 (*)
+010a6996 [LTM] VS2017 v15.9.11 build 27030 (*)
+010b6996 [PGO] VS2017 v15.9.11 build 27030 (*)
+010c6996 [PG+] VS2017 v15.9.11 build 27030 (*)
+010d6996 [POC] VS2017 v15.9.11 build 27030 (*)
+010e6996 [PO+] VS2017 v15.9.11 build 27030 (*)
 
 # Visual Studio 2017 version 15.9.7 (values are interpolated)
 01046993 [ C ] VS2017 v15.9.7 build 27027 (*)
@@ -786,6 +1504,15 @@
 01026993 [LNK] VS2017 v15.9.7 build 27027 (*)
 01016993 [IMP] VS2017 v15.9.7 build 27027 (*)
 01006993 [EXP] VS2017 v15.9.7 build 27027 (*)
+01066993 [CIL] VS2017 v15.9.7 build 27027 (*)
+01076993 [CI+] VS2017 v15.9.7 build 27027 (*)
+01086993 [LTC] VS2017 v15.9.7 build 27027 (*)
+01096993 [LT+] VS2017 v15.9.7 build 27027 (*)
+010a6993 [LTM] VS2017 v15.9.7 build 27027 (*)
+010b6993 [PGO] VS2017 v15.9.7 build 27027 (*)
+010c6993 [PG+] VS2017 v15.9.7 build 27027 (*)
+010d6993 [POC] VS2017 v15.9.7 build 27027 (*)
+010e6993 [PO+] VS2017 v15.9.7 build 27027 (*)
 
 # Visual Studio 2017 version 15.9.5 (values are interpolated)
 01046992 [ C ] VS2017 v15.9.5 build 27026 (*)
@@ -795,6 +1522,15 @@
 01026992 [LNK] VS2017 v15.9.5 build 27026 (*)
 01016992 [IMP] VS2017 v15.9.5 build 27026 (*)
 01006992 [EXP] VS2017 v15.9.5 build 27026 (*)
+01066992 [CIL] VS2017 v15.9.5 build 27026 (*)
+01076992 [CI+] VS2017 v15.9.5 build 27026 (*)
+01086992 [LTC] VS2017 v15.9.5 build 27026 (*)
+01096992 [LT+] VS2017 v15.9.5 build 27026 (*)
+010a6992 [LTM] VS2017 v15.9.5 build 27026 (*)
+010b6992 [PGO] VS2017 v15.9.5 build 27026 (*)
+010c6992 [PG+] VS2017 v15.9.5 build 27026 (*)
+010d6992 [POC] VS2017 v15.9.5 build 27026 (*)
+010e6992 [PO+] VS2017 v15.9.5 build 27026 (*)
 
 # Visual Studio 2017 version 15.9.4 (values are interpolated)
 01046991 [ C ] VS2017 v15.9.4 build 27025 (*)
@@ -804,6 +1540,15 @@
 01026991 [LNK] VS2017 v15.9.4 build 27025 (*)
 01016991 [IMP] VS2017 v15.9.4 build 27025 (*)
 01006991 [EXP] VS2017 v15.9.4 build 27025 (*)
+01066991 [CIL] VS2017 v15.9.4 build 27025 (*)
+01076991 [CI+] VS2017 v15.9.4 build 27025 (*)
+01086991 [LTC] VS2017 v15.9.4 build 27025 (*)
+01096991 [LT+] VS2017 v15.9.4 build 27025 (*)
+010a6991 [LTM] VS2017 v15.9.4 build 27025 (*)
+010b6991 [PGO] VS2017 v15.9.4 build 27025 (*)
+010c6991 [PG+] VS2017 v15.9.4 build 27025 (*)
+010d6991 [POC] VS2017 v15.9.4 build 27025 (*)
+010e6991 [PO+] VS2017 v15.9.4 build 27025 (*)
 
 # Visual Studio 2017 version 15.9.1 (values are interpolated)
 0104698f [ C ] VS2017 v15.9.1 build 27023 (*)
@@ -813,6 +1558,15 @@
 0102698f [LNK] VS2017 v15.9.1 build 27023 (*)
 0101698f [IMP] VS2017 v15.9.1 build 27023 (*)
 0100698f [EXP] VS2017 v15.9.1 build 27023 (*)
+0106698f [CIL] VS2017 v15.9.1 build 27023 (*)
+0107698f [CI+] VS2017 v15.9.1 build 27023 (*)
+0108698f [LTC] VS2017 v15.9.1 build 27023 (*)
+0109698f [LT+] VS2017 v15.9.1 build 27023 (*)
+010a698f [LTM] VS2017 v15.9.1 build 27023 (*)
+010b698f [PGO] VS2017 v15.9.1 build 27023 (*)
+010c698f [PG+] VS2017 v15.9.1 build 27023 (*)
+010d698f [POC] VS2017 v15.9.1 build 27023 (*)
+010e698f [PO+] VS2017 v15.9.1 build 27023 (*)
 
 # Visual Studio 2017 version 15.8.5 (values are interpolated)
 # source: https://walbourn.github.io/vs-2017-15-8-update/
@@ -823,6 +1577,15 @@
 0102686c [LNK] VS2017 v15.8.5 build 26732 (*)
 0101686c [IMP] VS2017 v15.8.5 build 26732 (*)
 0100686c [EXP] VS2017 v15.8.5 build 26732 (*)
+0106686c [CIL] VS2017 v15.8.5 build 26732 (*)
+0107686c [CI+] VS2017 v15.8.5 build 26732 (*)
+0108686c [LTC] VS2017 v15.8.5 build 26732 (*)
+0109686c [LT+] VS2017 v15.8.5 build 26732 (*)
+010a686c [LTM] VS2017 v15.8.5 build 26732 (*)
+010b686c [PGO] VS2017 v15.8.5 build 26732 (*)
+010c686c [PG+] VS2017 v15.8.5 build 26732 (*)
+010d686c [POC] VS2017 v15.8.5 build 26732 (*)
+010e686c [PO+] VS2017 v15.8.5 build 26732 (*)
 
 # Visual Studio 2017 version 15.8.9 (sic!) (values are interpolated)
 # source: https://walbourn.github.io/vs-2017-15-8-update/
@@ -833,6 +1596,15 @@
 0102686a [LNK] VS2017 v15.8.9? build 26730 (*)
 0101686a [IMP] VS2017 v15.8.9? build 26730 (*)
 0100686a [EXP] VS2017 v15.8.9? build 26730 (*)
+0106686a [CIL] VS2017 v15.8.9? build 26730 (*)
+0107686a [CI+] VS2017 v15.8.9? build 26730 (*)
+0108686a [LTC] VS2017 v15.8.9? build 26730 (*)
+0109686a [LT+] VS2017 v15.8.9? build 26730 (*)
+010a686a [LTM] VS2017 v15.8.9? build 26730 (*)
+010b686a [PGO] VS2017 v15.8.9? build 26730 (*)
+010c686a [PG+] VS2017 v15.8.9? build 26730 (*)
+010d686a [POC] VS2017 v15.8.9? build 26730 (*)
+010e686a [PO+] VS2017 v15.8.9? build 26730 (*)
 
 # Visual Studio 2017 version 15.8.4 (values are interpolated)
 # source: https://walbourn.github.io/vs-2017-15-8-update/
@@ -843,6 +1615,15 @@
 01026869 [LNK] VS2017 v15.8.4 build 26729 (*)
 01016869 [IMP] VS2017 v15.8.4 build 26729 (*)
 01006869 [EXP] VS2017 v15.8.4 build 26729 (*)
+01066869 [CIL] VS2017 v15.8.4 build 26729 (*)
+01076869 [CI+] VS2017 v15.8.4 build 26729 (*)
+01086869 [LTC] VS2017 v15.8.4 build 26729 (*)
+01096869 [LT+] VS2017 v15.8.4 build 26729 (*)
+010a6869 [LTM] VS2017 v15.8.4 build 26729 (*)
+010b6869 [PGO] VS2017 v15.8.4 build 26729 (*)
+010c6869 [PG+] VS2017 v15.8.4 build 26729 (*)
+010d6869 [POC] VS2017 v15.8.4 build 26729 (*)
+010e6869 [PO+] VS2017 v15.8.4 build 26729 (*)
 
 # Visual Studio 2017 version 15.8.0 (values are interpolated)
 # source: https://walbourn.github.io/vs-2017-15-8-update/
@@ -853,6 +1634,15 @@
 01026866 [LNK] VS2017 v15.8.0 build 26726 (*)
 01016866 [IMP] VS2017 v15.8.0 build 26726 (*)
 01006866 [EXP] VS2017 v15.8.0 build 26726 (*)
+01066866 [CIL] VS2017 v15.8.0 build 26726 (*)
+01076866 [CI+] VS2017 v15.8.0 build 26726 (*)
+01086866 [LTC] VS2017 v15.8.0 build 26726 (*)
+01096866 [LT+] VS2017 v15.8.0 build 26726 (*)
+010a6866 [LTM] VS2017 v15.8.0 build 26726 (*)
+010b6866 [PGO] VS2017 v15.8.0 build 26726 (*)
+010c6866 [PG+] VS2017 v15.8.0 build 26726 (*)
+010d6866 [POC] VS2017 v15.8.0 build 26726 (*)
+010e6866 [PO+] VS2017 v15.8.0 build 26726 (*)
 
 # Visual Studio 2017 version 15.7.5 (values are interpolated)
 01046741 [ C ] VS2017 v15.7.5 build 26433 (*)
@@ -862,6 +1652,15 @@
 01026741 [LNK] VS2017 v15.7.5 build 26433 (*)
 01016741 [IMP] VS2017 v15.7.5 build 26433 (*)
 01006741 [EXP] VS2017 v15.7.5 build 26433 (*)
+01066741 [CIL] VS2017 v15.7.5 build 26433 (*)
+01076741 [CI+] VS2017 v15.7.5 build 26433 (*)
+01086741 [LTC] VS2017 v15.7.5 build 26433 (*)
+01096741 [LT+] VS2017 v15.7.5 build 26433 (*)
+010a6741 [LTM] VS2017 v15.7.5 build 26433 (*)
+010b6741 [PGO] VS2017 v15.7.5 build 26433 (*)
+010c6741 [PG+] VS2017 v15.7.5 build 26433 (*)
+010d6741 [POC] VS2017 v15.7.5 build 26433 (*)
+010e6741 [PO+] VS2017 v15.7.5 build 26433 (*)
 
 # Visual Studio 2017 version 15.7.4 (values are interpolated)
 # source: https://walbourn.github.io/vs-2017-15-7-update/
@@ -872,6 +1671,15 @@
 0102673f [LNK] VS2017 v15.7.4 build 26431 (*)
 0101673f [IMP] VS2017 v15.7.4 build 26431 (*)
 0100673f [EXP] VS2017 v15.7.4 build 26431 (*)
+0106673f [CIL] VS2017 v15.7.4 build 26431 (*)
+0107673f [CI+] VS2017 v15.7.4 build 26431 (*)
+0108673f [LTC] VS2017 v15.7.4 build 26431 (*)
+0109673f [LT+] VS2017 v15.7.4 build 26431 (*)
+010a673f [LTM] VS2017 v15.7.4 build 26431 (*)
+010b673f [PGO] VS2017 v15.7.4 build 26431 (*)
+010c673f [PG+] VS2017 v15.7.4 build 26431 (*)
+010d673f [POC] VS2017 v15.7.4 build 26431 (*)
+010e673f [PO+] VS2017 v15.7.4 build 26431 (*)
 
 # Visual Studio 2017 version 15.7.3 (values are interpolated)
 0104673e [ C ] VS2017 v15.7.3 build 26430 (*)
@@ -881,6 +1689,15 @@
 0102673e [LNK] VS2017 v15.7.3 build 26430 (*)
 0101673e [IMP] VS2017 v15.7.3 build 26430 (*)
 0100673e [EXP] VS2017 v15.7.3 build 26430 (*)
+0106673e [CIL] VS2017 v15.7.3 build 26430 (*)
+0107673e [CI+] VS2017 v15.7.3 build 26430 (*)
+0108673e [LTC] VS2017 v15.7.3 build 26430 (*)
+0109673e [LT+] VS2017 v15.7.3 build 26430 (*)
+010a673e [LTM] VS2017 v15.7.3 build 26430 (*)
+010b673e [PGO] VS2017 v15.7.3 build 26430 (*)
+010c673e [PG+] VS2017 v15.7.3 build 26430 (*)
+010d673e [POC] VS2017 v15.7.3 build 26430 (*)
+010e673e [PO+] VS2017 v15.7.3 build 26430 (*)
 
 # Visual Studio 2017 version 15.7.2 (values are interpolated)
 0104673d [ C ] VS2017 v15.7.2 build 26429 (*)
@@ -890,6 +1707,15 @@
 0102673d [LNK] VS2017 v15.7.2 build 26429 (*)
 0101673d [IMP] VS2017 v15.7.2 build 26429 (*)
 0100673d [EXP] VS2017 v15.7.2 build 26429 (*)
+0106673d [CIL] VS2017 v15.7.2 build 26429 (*)
+0107673d [CI+] VS2017 v15.7.2 build 26429 (*)
+0108673d [LTC] VS2017 v15.7.2 build 26429 (*)
+0109673d [LT+] VS2017 v15.7.2 build 26429 (*)
+010a673d [LTM] VS2017 v15.7.2 build 26429 (*)
+010b673d [PGO] VS2017 v15.7.2 build 26429 (*)
+010c673d [PG+] VS2017 v15.7.2 build 26429 (*)
+010d673d [POC] VS2017 v15.7.2 build 26429 (*)
+010e673d [PO+] VS2017 v15.7.2 build 26429 (*)
 
 # Visual Studio 2017 version 15.7.1 (values are interpolated)
 0104673c [ C ] VS2017 v15.7.1 build 26428 (*)
@@ -899,6 +1725,15 @@
 0102673c [LNK] VS2017 v15.7.1 build 26428 (*)
 0101673c [IMP] VS2017 v15.7.1 build 26428 (*)
 0100673c [EXP] VS2017 v15.7.1 build 26428 (*)
+0106673c [CIL] VS2017 v15.7.1 build 26428 (*)
+0107673c [CI+] VS2017 v15.7.1 build 26428 (*)
+0108673c [LTC] VS2017 v15.7.1 build 26428 (*)
+0109673c [LT+] VS2017 v15.7.1 build 26428 (*)
+010a673c [LTM] VS2017 v15.7.1 build 26428 (*)
+010b673c [PGO] VS2017 v15.7.1 build 26428 (*)
+010c673c [PG+] VS2017 v15.7.1 build 26428 (*)
+010d673c [POC] VS2017 v15.7.1 build 26428 (*)
+010e673c [PO+] VS2017 v15.7.1 build 26428 (*)
 
 # Visual Studio 2017 version 15.6.7 (values are interpolated)
 01046614 [ C ] VS2017 v15.6.7 build 26132 (*)
@@ -908,6 +1743,15 @@
 01026614 [LNK] VS2017 v15.6.7 build 26132 (*)
 01016614 [IMP] VS2017 v15.6.7 build 26132 (*)
 01006614 [EXP] VS2017 v15.6.7 build 26132 (*)
+01066614 [CIL] VS2017 v15.6.7 build 26132 (*)
+01076614 [CI+] VS2017 v15.6.7 build 26132 (*)
+01086614 [LTC] VS2017 v15.6.7 build 26132 (*)
+01096614 [LT+] VS2017 v15.6.7 build 26132 (*)
+010a6614 [LTM] VS2017 v15.6.7 build 26132 (*)
+010b6614 [PGO] VS2017 v15.6.7 build 26132 (*)
+010c6614 [PG+] VS2017 v15.6.7 build 26132 (*)
+010d6614 [POC] VS2017 v15.6.7 build 26132 (*)
+010e6614 [PO+] VS2017 v15.6.7 build 26132 (*)
 
 # Visual Studio 2017 version 15.6.6 (values are interpolated)
 01046613 [ C ] VS2017 v15.6.6 build 26131 (*)
@@ -917,6 +1761,15 @@
 01026613 [LNK] VS2017 v15.6.6 build 26131 (*)
 01016613 [IMP] VS2017 v15.6.6 build 26131 (*)
 01006613 [EXP] VS2017 v15.6.6 build 26131 (*)
+01066613 [CIL] VS2017 v15.6.6 build 26131 (*)
+01076613 [CI+] VS2017 v15.6.6 build 26131 (*)
+01086613 [LTC] VS2017 v15.6.6 build 26131 (*)
+01096613 [LT+] VS2017 v15.6.6 build 26131 (*)
+010a6613 [LTM] VS2017 v15.6.6 build 26131 (*)
+010b6613 [PGO] VS2017 v15.6.6 build 26131 (*)
+010c6613 [PG+] VS2017 v15.6.6 build 26131 (*)
+010d6613 [POC] VS2017 v15.6.6 build 26131 (*)
+010e6613 [PO+] VS2017 v15.6.6 build 26131 (*)
 
 # Visual Studio 2017 version 15.6.4 has the same build number
 # Visual Studio 2017 version 15.6.3 (values are interpolated)
@@ -927,6 +1780,15 @@
 01026611 [LNK] VS2017 v15.6.3 build 26129 (*)
 01016611 [IMP] VS2017 v15.6.3 build 26129 (*)
 01006611 [EXP] VS2017 v15.6.3 build 26129 (*)
+01066611 [CIL] VS2017 v15.6.3 build 26129 (*)
+01076611 [CI+] VS2017 v15.6.3 build 26129 (*)
+01086611 [LTC] VS2017 v15.6.3 build 26129 (*)
+01096611 [LT+] VS2017 v15.6.3 build 26129 (*)
+010a6611 [LTM] VS2017 v15.6.3 build 26129 (*)
+010b6611 [PGO] VS2017 v15.6.3 build 26129 (*)
+010c6611 [PG+] VS2017 v15.6.3 build 26129 (*)
+010d6611 [POC] VS2017 v15.6.3 build 26129 (*)
+010e6611 [PO+] VS2017 v15.6.3 build 26129 (*)
 
 # Visual Studio 2017 version 15.6.2 has the same build number
 # Visual Studio 2017 version 15.6.1 has the same build number
@@ -938,6 +1800,15 @@
 01026610 [LNK] VS2017 v15.6.0 build 26128 (*)
 01016610 [IMP] VS2017 v15.6.0 build 26128 (*)
 01006610 [EXP] VS2017 v15.6.0 build 26128 (*)
+01066610 [CIL] VS2017 v15.6.0 build 26128 (*)
+01076610 [CI+] VS2017 v15.6.0 build 26128 (*)
+01086610 [LTC] VS2017 v15.6.0 build 26128 (*)
+01096610 [LT+] VS2017 v15.6.0 build 26128 (*)
+010a6610 [LTM] VS2017 v15.6.0 build 26128 (*)
+010b6610 [PGO] VS2017 v15.6.0 build 26128 (*)
+010c6610 [PG+] VS2017 v15.6.0 build 26128 (*)
+010d6610 [POC] VS2017 v15.6.0 build 26128 (*)
+010e6610 [PO+] VS2017 v15.6.0 build 26128 (*)
 
 # Visual Studio 2017 version 15.5.7 has the same build number
 # Visual Studio 2017 version 15.5.6 (values are interpolated)
@@ -948,6 +1819,15 @@
 010264eb [LNK] VS2017 v15.5.6 build 25835 (*)
 010164eb [IMP] VS2017 v15.5.6 build 25835 (*)
 010064eb [EXP] VS2017 v15.5.6 build 25835 (*)
+010664eb [CIL] VS2017 v15.5.6 build 25835 (*)
+010764eb [CI+] VS2017 v15.5.6 build 25835 (*)
+010864eb [LTC] VS2017 v15.5.6 build 25835 (*)
+010964eb [LT+] VS2017 v15.5.6 build 25835 (*)
+010a64eb [LTM] VS2017 v15.5.6 build 25835 (*)
+010b64eb [PGO] VS2017 v15.5.6 build 25835 (*)
+010c64eb [PG+] VS2017 v15.5.6 build 25835 (*)
+010d64eb [POC] VS2017 v15.5.6 build 25835 (*)
+010e64eb [PO+] VS2017 v15.5.6 build 25835 (*)
 
 # MSVS2017 v15.5.4 (15.5.3 has the same build number)
 010464ea [ C ] VS2017 v15.5.4 build 25834
@@ -957,6 +1837,15 @@
 010264ea [LNK] VS2017 v15.5.4 build 25834
 010064ea [EXP] VS2017 v15.5.4 build 25834
 010164ea [IMP] VS2017 v15.5.4 build 25834
+010664ea [CIL] VS2017 v15.5.4 build 25834 (*)
+010764ea [CI+] VS2017 v15.5.4 build 25834 (*)
+010864ea [LTC] VS2017 v15.5.4 build 25834 (*)
+010964ea [LT+] VS2017 v15.5.4 build 25834 (*)
+010a64ea [LTM] VS2017 v15.5.4 build 25834 (*)
+010b64ea [PGO] VS2017 v15.5.4 build 25834 (*)
+010c64ea [PG+] VS2017 v15.5.4 build 25834 (*)
+010d64ea [POC] VS2017 v15.5.4 build 25834 (*)
+010e64ea [PO+] VS2017 v15.5.4 build 25834 (*)
 
 # Visual Studio 2017 version 15.5.2 (values are interpolated)
 010464e7 [ C ] VS2017 v15.5.2 build 25831 (*)
@@ -966,6 +1855,15 @@
 010264e7 [LNK] VS2017 v15.5.2 build 25831 (*)
 010164e7 [IMP] VS2017 v15.5.2 build 25831 (*)
 010064e7 [EXP] VS2017 v15.5.2 build 25831 (*)
+010664e7 [CIL] VS2017 v15.5.2 build 25831 (*)
+010764e7 [CI+] VS2017 v15.5.2 build 25831 (*)
+010864e7 [LTC] VS2017 v15.5.2 build 25831 (*)
+010964e7 [LT+] VS2017 v15.5.2 build 25831 (*)
+010a64e7 [LTM] VS2017 v15.5.2 build 25831 (*)
+010b64e7 [PGO] VS2017 v15.5.2 build 25831 (*)
+010c64e7 [PG+] VS2017 v15.5.2 build 25831 (*)
+010d64e7 [POC] VS2017 v15.5.2 build 25831 (*)
+010e64e7 [PO+] VS2017 v15.5.2 build 25831 (*)
 
 # Visual Studio 2017 version 15.4.5 (values are interpolated)
 010463cb [ C ] VS2017 v15.4.5 build 25547 (*)
@@ -975,6 +1873,15 @@
 010263cb [LNK] VS2017 v15.4.5 build 25547 (*)
 010163cb [IMP] VS2017 v15.4.5 build 25547 (*)
 010063cb [EXP] VS2017 v15.4.5 build 25547 (*)
+010663cb [CIL] VS2017 v15.4.5 build 25547 (*)
+010763cb [CI+] VS2017 v15.4.5 build 25547 (*)
+010863cb [LTC] VS2017 v15.4.5 build 25547 (*)
+010963cb [LT+] VS2017 v15.4.5 build 25547 (*)
+010a63cb [LTM] VS2017 v15.4.5 build 25547 (*)
+010b63cb [PGO] VS2017 v15.4.5 build 25547 (*)
+010c63cb [PG+] VS2017 v15.4.5 build 25547 (*)
+010d63cb [POC] VS2017 v15.4.5 build 25547 (*)
+010e63cb [PO+] VS2017 v15.4.5 build 25547 (*)
 
 # Visual Studio 2017 version 15.4.4 (values are interpolated)
 010463c6 [ C ] VS2017 v15.4.4 build 25542 (*)
@@ -984,6 +1891,15 @@
 010263c6 [LNK] VS2017 v15.4.4 build 25542 (*)
 010163c6 [IMP] VS2017 v15.4.4 build 25542 (*)
 010063c6 [EXP] VS2017 v15.4.4 build 25542 (*)
+010663c6 [CIL] VS2017 v15.4.4 build 25542 (*)
+010763c6 [CI+] VS2017 v15.4.4 build 25542 (*)
+010863c6 [LTC] VS2017 v15.4.4 build 25542 (*)
+010963c6 [LT+] VS2017 v15.4.4 build 25542 (*)
+010a63c6 [LTM] VS2017 v15.4.4 build 25542 (*)
+010b63c6 [PGO] VS2017 v15.4.4 build 25542 (*)
+010c63c6 [PG+] VS2017 v15.4.4 build 25542 (*)
+010d63c6 [POC] VS2017 v15.4.4 build 25542 (*)
+010e63c6 [PO+] VS2017 v15.4.4 build 25542 (*)
 
 # Visual Studio 2017 version 15.3.3 (values are interpolated)
 010463a3 [ C ] VS2017 v15.3.3 build 25507 (*)
@@ -993,6 +1909,15 @@
 010263a3 [LNK] VS2017 v15.3.3 build 25507 (*)
 010163a3 [IMP] VS2017 v15.3.3 build 25507 (*)
 010063a3 [EXP] VS2017 v15.3.3 build 25507 (*)
+010663a3 [CIL] VS2017 v15.3.3 build 25507 (*)
+010763a3 [CI+] VS2017 v15.3.3 build 25507 (*)
+010863a3 [LTC] VS2017 v15.3.3 build 25507 (*)
+010963a3 [LT+] VS2017 v15.3.3 build 25507 (*)
+010a63a3 [LTM] VS2017 v15.3.3 build 25507 (*)
+010b63a3 [PGO] VS2017 v15.3.3 build 25507 (*)
+010c63a3 [PG+] VS2017 v15.3.3 build 25507 (*)
+010d63a3 [POC] VS2017 v15.3.3 build 25507 (*)
+010e63a3 [PO+] VS2017 v15.3.3 build 25507 (*)
 
 # Visual Studio 2017 version 15.3 (values are interpolated)
 # source: https://twitter.com/visualc/status/897853176002433024
@@ -1003,6 +1928,15 @@
 010263a2 [LNK] VS2017 v15.3 build 25506 (*)
 010163a2 [IMP] VS2017 v15.3 build 25506 (*)
 010063a2 [EXP] VS2017 v15.3 build 25506 (*)
+010663a2 [CIL] VS2017 v15.3 build 25506 (*)
+010763a2 [CI+] VS2017 v15.3 build 25506 (*)
+010863a2 [LTC] VS2017 v15.3 build 25506 (*)
+010963a2 [LT+] VS2017 v15.3 build 25506 (*)
+010a63a2 [LTM] VS2017 v15.3 build 25506 (*)
+010b63a2 [PGO] VS2017 v15.3 build 25506 (*)
+010c63a2 [PG+] VS2017 v15.3 build 25506 (*)
+010d63a2 [POC] VS2017 v15.3 build 25506 (*)
+010e63a2 [PO+] VS2017 v15.3 build 25506 (*)
 
 # Visual Studio 2017 version 15.2 has the same build number
 # Visual Studio 2017 version 15.1 has the same build number
@@ -1014,6 +1948,15 @@
 010261b9 [LNK] VS2017 v15.0 build 25017 (*)
 010161b9 [IMP] VS2017 v15.0 build 25017 (*)
 010061b9 [EXP] VS2017 v15.0 build 25017 (*)
+010661b9 [CIL] VS2017 v15.0 build 25017 (*)
+010761b9 [CI+] VS2017 v15.0 build 25017 (*)
+010861b9 [LTC] VS2017 v15.0 build 25017 (*)
+010961b9 [LT+] VS2017 v15.0 build 25017 (*)
+010a61b9 [LTM] VS2017 v15.0 build 25017 (*)
+010b61b9 [PGO] VS2017 v15.0 build 25017 (*)
+010c61b9 [PG+] VS2017 v15.0 build 25017 (*)
+010d61b9 [POC] VS2017 v15.0 build 25017 (*)
+010e61b9 [PO+] VS2017 v15.0 build 25017 (*)
 
 # MSVS Community 2015 UPD3.1 (cl version 19.00.24215.1) - some IDs are interpolated
 # [ASM] is the same as in UPD3 build 24213
@@ -1022,15 +1965,36 @@
 01025e97 [LNK] VS2015 UPD3.1 build 24215
 01005e97 [EXP] VS2015 UPD3.1 build 24215
 01015e97 [IMP] VS2015 UPD3.1 build 24215
+00ff5e97 [RES] VS2015 UPD3.1 build 24215 (*)
+01035e97 [ASM] VS2015 UPD3.1 build 24215 (*)
+01065e97 [CIL] VS2015 UPD3.1 build 24215 (*)
+01075e97 [CI+] VS2015 UPD3.1 build 24215 (*)
+01085e97 [LTC] VS2015 UPD3.1 build 24215 (*)
+01095e97 [LT+] VS2015 UPD3.1 build 24215 (*)
+010a5e97 [LTM] VS2015 UPD3.1 build 24215 (*)
+010b5e97 [PGO] VS2015 UPD3.1 build 24215 (*)
+010c5e97 [PG+] VS2015 UPD3.1 build 24215 (*)
+010d5e97 [POC] VS2015 UPD3.1 build 24215 (*)
+010e5e97 [PO+] VS2015 UPD3.1 build 24215 (*)
 
 # MSVS Community 2015 UPD3 (cl version 19.00.24213.1)
 01045e95 [ C ] VS2015 UPD3 build 24213
-01035e92 [ASM] VS2015 UPD3 build 24210
 01055e95 [C++] VS2015 UPD3 build 24213
+# asm and cvtres are from previous build smh
+01035e92 [ASM] VS2015 UPD3 build 24210
 00ff5e92 [RES] VS2015 UPD3 build 24210
 01025e95 [LNK] VS2015 UPD3 build 24213
 01005e95 [EXP] VS2015 UPD3 build 24213
 01015e95 [IMP] VS2015 UPD3 build 24213
+01065e95 [CIL] VS2015 UPD3 build 24213 (*)
+01075e95 [CI+] VS2015 UPD3 build 24213 (*)
+01085e95 [LTC] VS2015 UPD3 build 24213 (*)
+01095e95 [LT+] VS2015 UPD3 build 24213 (*)
+010a5e95 [LTM] VS2015 UPD3 build 24213 (*)
+010b5e95 [PGO] VS2015 UPD3 build 24213 (*)
+010c5e95 [PG+] VS2015 UPD3 build 24213 (*)
+010d5e95 [POC] VS2015 UPD3 build 24213 (*)
+010e5e95 [PO+] VS2015 UPD3 build 24213 (*)
 
 # Visual Studio 2015 Update 3 [14.0] (values are interpolated)
 01045e92 [ C ] VS2015 Update 3 [14.0] build 24210 (*)
@@ -1040,6 +2004,15 @@
 01025e92 [LNK] VS2015 Update 3 [14.0] build 24210 (*)
 01015e92 [IMP] VS2015 Update 3 [14.0] build 24210 (*)
 01005e92 [EXP] VS2015 Update 3 [14.0] build 24210 (*)
+01065e92 [CIL] VS2015 Update 3 [14.0] build 24210 (*)
+01075e92 [CI+] VS2015 Update 3 [14.0] build 24210 (*)
+01085e92 [LTC] VS2015 Update 3 [14.0] build 24210 (*)
+01095e92 [LT+] VS2015 Update 3 [14.0] build 24210 (*)
+010a5e92 [LTM] VS2015 Update 3 [14.0] build 24210 (*)
+010b5e92 [PGO] VS2015 Update 3 [14.0] build 24210 (*)
+010c5e92 [PG+] VS2015 Update 3 [14.0] build 24210 (*)
+010d5e92 [POC] VS2015 Update 3 [14.0] build 24210 (*)
+010e5e92 [PO+] VS2015 Update 3 [14.0] build 24210 (*)
 
 # MSVS Community 2015 UPD2 (14.0.25123.0?)
 01045d6e [ C ] VS2015 UPD2 build 23918
@@ -1049,6 +2022,15 @@
 01025d6e [LNK] VS2015 UPD2 build 23918
 01005d6e [EXP] VS2015 UPD2 build 23918
 01015d6e [IMP] VS2015 UPD2 build 23918
+01065d6e [CIL] VS2015 UPD2 build 23918 (*)
+01075d6e [CI+] VS2015 UPD2 build 23918 (*)
+01085d6e [LTC] VS2015 UPD2 build 23918 (*)
+01095d6e [LT+] VS2015 UPD2 build 23918 (*)
+010a5d6e [LTM] VS2015 UPD2 build 23918 (*)
+010b5d6e [PGO] VS2015 UPD2 build 23918 (*)
+010c5d6e [PG+] VS2015 UPD2 build 23918 (*)
+010d5d6e [POC] VS2015 UPD2 build 23918 (*)
+010e5d6e [PO+] VS2015 UPD2 build 23918 (*)
 
 # MSVS Community 2015 14.0.24728.2 (UPD 1) 14.0.24720.0 D14REL
 01045bd2 [ C ] VS2015 UPD1 build 23506
@@ -1058,6 +2040,15 @@
 01025bd2 [LNK] VS2015 UPD1 build 23506
 01005bd2 [EXP] VS2015 UPD1 build 23506
 01015bd2 [IMP] VS2015 UPD1 build 23506
+01065bd2 [CIL] VS2015 UPD1 build 23506 (*)
+01075bd2 [CI+] VS2015 UPD1 build 23506 (*)
+01085bd2 [LTC] VS2015 UPD1 build 23506 (*)
+01095bd2 [LT+] VS2015 UPD1 build 23506 (*)
+010a5bd2 [LTM] VS2015 UPD1 build 23506 (*)
+010b5bd2 [PGO] VS2015 UPD1 build 23506 (*)
+010c5bd2 [PG+] VS2015 UPD1 build 23506 (*)
+010d5bd2 [POC] VS2015 UPD1 build 23506 (*)
+010e5bd2 [PO+] VS2015 UPD1 build 23506 (*)
 
 # MSVS Community 2015 [14.0]
 010459f2 [ C ] VS2015 [14.0] build 23026
@@ -1067,6 +2058,15 @@
 010259f2 [LNK] VS2015 [14.0] build 23026
 010059f2 [EXP] VS2015 [14.0] build 23026
 010159f2 [IMP] VS2015 [14.0] build 23026
+010659f2 [CIL] VS2015 [14.0] build 23026 (*)
+010759f2 [CI+] VS2015 [14.0] build 23026 (*)
+010859f2 [LTC] VS2015 [14.0] build 23026 (*)
+010959f2 [LT+] VS2015 [14.0] build 23026 (*)
+010a59f2 [LTM] VS2015 [14.0] build 23026 (*)
+010b59f2 [PGO] VS2015 [14.0] build 23026 (*)
+010c59f2 [PG+] VS2015 [14.0] build 23026 (*)
+010d59f2 [POC] VS2015 [14.0] build 23026 (*)
+010e59f2 [PO+] VS2015 [14.0] build 23026 (*)
 
 # Visual Studio 2013 Nobemver CTP [12.0] (values are interpolated)
 00e0527a [ C ] VS2013 Nobemver CTP [12.0] build 21114 (*)
