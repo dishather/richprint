@@ -24,7 +24,7 @@
 00000000 [---] Unmarked objects (old)
 00970000 [---] Resource
 00fe0000 [---] CVTPGD
-00fe0001 [---] CVTPGD (VS2019?)
+00fe0001 [---] CVTPGD
 
 # MSVS2022 v17.5.4
 01047dd9 [ C ] VS2022 v17.5.4 build 32217
@@ -189,6 +189,24 @@
 010c7a61 [PG+] VS2022 v17.2.1 build 31329 (*)
 010d7a61 [POC] VS2022 v17.2.1 build 31329 (*)
 010e7a61 [PO+] VS2022 v17.2.1 build 31329 (*)
+
+# MSVS2022 v17.6.0-pre.3.0
+01047f0a [ C ] VS2022 v17.6.0 pre 3.0 build 32522
+01037f0a [ASM] VS2022 v17.6.0 pre 3.0 build 32522
+01057f0a [C++] VS2022 v17.6.0 pre 3.0 build 32522
+00ff7f0a [RES] VS2022 v17.6.0 pre 3.0 build 32522
+01027f0a [LNK] VS2022 v17.6.0 pre 3.0 build 32522
+01007f0a [EXP] VS2022 v17.6.0 pre 3.0 build 32522
+01017f0a [IMP] VS2022 v17.6.0 pre 3.0 build 32522
+01087f0a [LTC] VS2022 v17.6.0 pre 3.0 build 32522
+01097f0a [LT+] VS2022 v17.6.0 pre 3.0 build 32522
+010b7f0a [PGO] VS2022 v17.6.0 pre 3.0 build 32522
+010c7f0a [PG+] VS2022 v17.6.0 pre 3.0 build 32522
+01067f0a [CIL] VS2022 v17.6.0 pre 3.0 build 32522 (*)
+01077f0a [CI+] VS2022 v17.6.0 pre 3.0 build 32522 (*)
+010a7f0a [LTM] VS2022 v17.6.0 pre 3.0 build 32522 (*)
+010d7f0a [POC] VS2022 v17.6.0 pre 3.0 build 32522 (*)
+010e7f0a [PO+] VS2022 v17.6.0 pre 3.0 build 32522 (*)
 
 # MSVS2022 v17.6.0-pre.2.0
 01047ef6 [ C ] VS2022 v17.6.0 pre 2.0 build 32502
