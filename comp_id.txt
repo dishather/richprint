@@ -191,8 +191,27 @@
 010d7a61 [POC] VS2022 v17.2.1 build 31329 (*)
 010e7a61 [PO+] VS2022 v17.2.1 build 31329 (*)
 
+# MSVS2022 v17.7.0-pre.1.0
+01047fc1 [ C ] VS2022 v17.7.0 pre 1.0 build 32705
+01037fc1 [ASM] VS2022 v17.7.0 pre 1.0 build 32705
+01057fc1 [C++] VS2022 v17.7.0 pre 1.0 build 32705
+00ff7fc1 [RES] VS2022 v17.7.0 pre 1.0 build 32705
+01027fc1 [LNK] VS2022 v17.7.0 pre 1.0 build 32705
+01007fc1 [EXP] VS2022 v17.7.0 pre 1.0 build 32705
+01017fc1 [IMP] VS2022 v17.7.0 pre 1.0 build 32705
+01087fc1 [LTC] VS2022 v17.7.0 pre 1.0 build 32705
+01097fc1 [LT+] VS2022 v17.7.0 pre 1.0 build 32705
+010b7fc1 [PGO] VS2022 v17.7.0 pre 1.0 build 32705
+010c7fc1 [PG+] VS2022 v17.7.0 pre 1.0 build 32705
+01067fc1 [CIL] VS2022 v17.7.0 pre 1.0 build 32705 (*)
+01077fc1 [CI+] VS2022 v17.7.0 pre 1.0 build 32705 (*)
+010a7fc1 [LTM] VS2022 v17.7.0 pre 1.0 build 32705 (*)
+010d7fc1 [POC] VS2022 v17.7.0 pre 1.0 build 32705 (*)
+010e7fc1 [PO+] VS2022 v17.7.0 pre 1.0 build 32705 (*)
+
 # MSVS2022 v17.6.0-pre.5.0
 # MSVS2022 v17.6.0-pre.6.0
+# MSVS2022 v17.6.0-pre.7.0
 01047f12 [ C ] VS2022 v17.6.0 pre 5.0 build 32530
 01037f12 [ASM] VS2022 v17.6.0 pre 5.0 build 32530
 01057f12 [C++] VS2022 v17.6.0 pre 5.0 build 32530
