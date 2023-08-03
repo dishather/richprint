@@ -68,3 +68,8 @@ values are marked with (*) for - ehm... - completeness?
 ## How can this information be used?
 In any way you like. For example, to satisfy you curiosity by inspecting the binaries in your system.
 Also, Rich Headers can allegedly be used in forensics.
+
+## Can I prevent Microsoft tools from emitting this header?
+Yes you can. Provide this undocumented option to the linker: `/emittoolversioninfo:no`.
+
+Thanks to [Oliver Schneider](https://github.com/assarbad) for pointing this out.
