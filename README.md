@@ -66,7 +66,7 @@ different tools.
 values are marked with (*) for - ehm... - completeness?
 
 ## How can this information be used?
-In any way you like. For example, to satisfy you curiosity by inspecting the binaries in your system.
+In any way you like. For example, to satisfy your curiosity by inspecting the binaries in your system.
 Also, Rich Headers can allegedly be used in forensics.
 
 ## Can I prevent Microsoft tools from emitting this header?
