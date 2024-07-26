@@ -5,9 +5,18 @@
 # [ C ] - obj file produced by C compiler
 # [C++] - obj file produced by C++ compiler
 # [RES] - obj file produced by CVTRES converter
+# [C S] - obj file produced by C "Std" compiler
+# [C+S] - obj file produced by C++ "Std" compiler
+# [C B] - obj file produced by C "Book" compiler
+# [C+B] - obj file produced by C++ "Book" compiler
+# [BSC] - obj file produced by Basic compiler
+# [OMF] - obj file produced by CVTOMF converter
+# [PGD] - obj file produced by CVTPGD converter
 # [IMP] - DLL import record in library file
 # [EXP] - DLL export record in library file
 # [ASM] - obj file produced by assembler
+# [ILA] - obj file produced by ILAssembler
+# [AOb] - AliasObj
 # [CIL] - CVTCIL C
 # [CI+] - CVTCIL C++
 # [LTC] - LTCG C (link-time code generation, C)
@@ -3216,3 +3225,277 @@
 # linker might do the same.
 00060684 [RES] VS97 (5.0) SP3 cvtres 5.00.1668
 00021c87 [IMP] VS97 (5.0) SP3 link 5.10.7303
+
+# Generic product ids (extracted from VS2019's msobj140-msvcrt.lib).
+
+#0000 [---] Unknown                # prodidUnknown
+#0001 [IMP] Import0                # prodidImport0
+0002 [LNK] VS97 (5.10)            # prodidLinker510
+0003 [OMF] VS97 (5.10)            # prodidCvtomf510
+0004 [LNK] VS98 (6.0)             # prodidLinker600
+0005 [OMF] VS98 (6.0)             # prodidCvtomf600
+0006 [RES] VS97 (5.0)             # prodidCvtres500
+0007 [BSC] VS97 (5.0)             # prodidUtc11_Basic
+0008 [ C ] VS97 (5.0)             # prodidUtc11_C
+0009 [BSC] VS98 (6.0)             # prodidUtc12_Basic
+000a [ C ] VS98 (6.0)             # prodidUtc12_C
+000b [CPP] VS98 (6.0)             # prodidUtc12_CPP
+000c [AOb] VS98 (6.0)             # prodidAliasObj60
+000d [BSC] VS98 (6.0)             # prodidVisualBasic60
+000e [ASM] VS98 (6.13)            # prodidMasm613
+000f [ASM] VS2003 (7.10)          # prodidMasm710
+0010 [LNK] VS97 (5.11)            # prodidLinker511
+0011 [OMF] VS97 (5.11)            # prodidCvtomf511
+0012 [ASM] VS98 (6.14)            # prodidMasm614
+0013 [LNK] VS97 (5.12)            # prodidLinker512
+0014 [OMF] VS97 (5.12)            # prodidCvtomf512
+0015 [C S] VS98 (6.0)             # prodidUtc12_C_Std
+0016 [C+S] VS98 (6.0)             # prodidUtc12_CPP_Std
+0017 [C B] VS98 (6.0)             # prodidUtc12_C_Book
+0018 [C+B] VS98 (6.0)             # prodidUtc12_CPP_Book
+0019 [IMP] VS2002 (7.0)           # prodidImplib700
+001a [OMF] VS2002 (7.0)           # prodidCvtomf700
+001b [BSC] VS2002 (7.0)           # prodidUtc13_Basic
+001c [ C ] VS2002 (7.0)           # prodidUtc13_C
+001d [CPP] VS2002 (7.0)           # prodidUtc13_CPP
+001e [LNK] VS98 (6.10)            # prodidLinker610
+001f [OMF] VS98 (6.10)            # prodidCvtomf610
+0020 [LNK] VS98 (6.01)            # prodidLinker601
+0021 [OMF] VS98 (6.01)            # prodidCvtomf601
+0022 [BSC] VS98 (6.10)            # prodidUtc12_1_Basic
+0023 [ C ] VS98 (6.10)            # prodidUtc12_1_C
+0024 [CPP] VS98 (6.10)            # prodidUtc12_1_CPP
+0025 [LNK] VS98 (6.02)            # prodidLinker620
+0026 [OMF] VS98 (6.02)            # prodidCvtomf620
+0027 [AOb] VS2002 (7.0)           # prodidAliasObj70
+0028 [LNK] VS98 (6.21)            # prodidLinker621
+0029 [OMF] VS98 (6.21)            # prodidCvtomf621
+002a [ASM] VS98 (6.15)            # prodidMasm615
+002b [LTC] VS2002 (7.0)           # prodidUtc13_LTCG_C
+002c [LT+] VS2002 (7.0)           # prodidUtc13_LTCG_CPP
+002d [ASM] VS98 (6.20)            # prodidMasm620
+002e [ILA] VS98 (6.20)            # prodidILAsm100
+002f [BSC] VS98 (6.20)            # prodidUtc12_2_Basic
+0030 [ C ] VS98 (6.20)            # prodidUtc12_2_C
+0031 [CPP] VS98 (6.20)            # prodidUtc12_2_CPP
+0032 [C S] VS98 (6.20)            # prodidUtc12_2_C_Std
+0033 [C+S] VS98 (6.20)            # prodidUtc12_2_CPP_Std
+0034 [C B] VS98 (6.20)            # prodidUtc12_2_C_Book
+0035 [C+B] VS98 (6.20)            # prodidUtc12_2_CPP_Book
+0036 [IMP] VS98 (6.22)            # prodidImplib622
+0037 [OMF] VS98 (6.22)            # prodidCvtomf622
+0038 [RES] VS97 (5.01)            # prodidCvtres501
+0039 [C S] VS2002 (7.0)           # prodidUtc13_C_Std
+003a [C+S] VS2002 (7.0)           # prodidUtc13_CPP_Std
+003b [PGD] VS2002 (7.0)           # prodidCvtpgd1300
+003c [LNK] VS98 (6.22)            # prodidLinker622
+003d [LNK] VS2002 (7.0)           # prodidLinker700
+003e [EXP] VS98 (6.22)            # prodidExport622
+003f [EXP] VS2002 (7.0)           # prodidExport700
+0040 [ASM] VS2002 (7.0)           # prodidMasm700
+0041 [PGO] VS2002 (7.0)           # prodidUtc13_POGO_I_C
+0042 [PG+] VS2002 (7.0)           # prodidUtc13_POGO_I_CPP
+0043 [POC] VS2002 (7.0)           # prodidUtc13_POGO_O_C
+0044 [PO+] VS2002 (7.0)           # prodidUtc13_POGO_O_CPP
+0045 [RES] VS2002 (7.0)           # prodidCvtres700
+0046 [RES] VS2003 (7.10p)         # prodidCvtres710p
+0047 [LNK] VS2003 (7.10p)         # prodidLinker710p
+0048 [OMF] VS2003 (7.10p)         # prodidCvtomf710p
+0049 [EXP] VS2003 (7.10p)         # prodidExport710p
+004a [IMP] VS2003 (7.10p)         # prodidImplib710p
+004b [ASM] VS2003 (7.10p)         # prodidMasm710p
+004c [ C ] VS2003 (7.10p)         # prodidUtc1310p_C
+004d [CPP] VS2003 (7.10p)         # prodidUtc1310p_CPP
+004e [C S] VS2003 (7.10p)         # prodidUtc1310p_C_Std
+004f [C+S] VS2003 (7.10p)         # prodidUtc1310p_CPP_Std
+0050 [LTC] VS2003 (7.10p)         # prodidUtc1310p_LTCG_C
+0051 [LT+] VS2003 (7.10p)         # prodidUtc1310p_LTCG_CPP
+0052 [PGO] VS2003 (7.10p)         # prodidUtc1310p_POGO_I_C
+0053 [PG+] VS2003 (7.10p)         # prodidUtc1310p_POGO_I_CPP
+0054 [POC] VS2003 (7.10p)         # prodidUtc1310p_POGO_O_C
+0055 [PO+] VS2003 (7.10p)         # prodidUtc1310p_POGO_O_CPP
+0056 [LNK] VS98 (6.24)            # prodidLinker624
+0057 [OMF] VS98 (6.24)            # prodidCvtomf624
+0058 [EXP] VS98 (6.24)            # prodidExport624
+0059 [IMP] VS98 (6.24)            # prodidImplib624
+005a [LNK] VS2003 (7.10)          # prodidLinker710
+005b [OMF] VS2003 (7.10)          # prodidCvtomf710
+005c [EXP] VS2003 (7.10)          # prodidExport710
+005d [IMP] VS2003 (7.10)          # prodidImplib710
+005e [RES] VS2003 (7.10)          # prodidCvtres710
+005f [ C ] VS2003 (7.10)          # prodidUtc1310_C
+0060 [CPP] VS2003 (7.10)          # prodidUtc1310_CPP
+0061 [C S] VS2003 (7.10)          # prodidUtc1310_C_Std
+0062 [C+S] VS2003 (7.10)          # prodidUtc1310_CPP_Std
+0063 [LTC] VS2003 (7.10)          # prodidUtc1310_LTCG_C
+0064 [LT+] VS2003 (7.10)          # prodidUtc1310_LTCG_CPP
+0065 [PGO] VS2003 (7.10)          # prodidUtc1310_POGO_I_C
+0066 [PG+] VS2003 (7.10)          # prodidUtc1310_POGO_I_CPP
+0067 [POC] VS2003 (7.10)          # prodidUtc1310_POGO_O_C
+0068 [PO+] VS2003 (7.10)          # prodidUtc1310_POGO_O_CPP
+0069 [AOb] VS2003 (7.10)          # prodidAliasObj710
+006a [AOb] VS2003 (7.10p)         # prodidAliasObj710p
+006b [PGD] VS2003 (7.10)          # prodidCvtpgd1310
+006c [PGD] VS2003 (7.10p)         # prodidCvtpgd1310p
+006d [ C ] VS2005 (8.0)           # prodidUtc1400_C
+006e [CPP] VS2005 (8.0)           # prodidUtc1400_CPP
+006f [C S] VS2005 (8.0)           # prodidUtc1400_C_Std
+0070 [C+S] VS2005 (8.0)           # prodidUtc1400_CPP_Std
+0071 [LTC] VS2005 (8.0)           # prodidUtc1400_LTCG_C
+0072 [LT+] VS2005 (8.0)           # prodidUtc1400_LTCG_CPP
+0073 [PGO] VS2005 (8.0)           # prodidUtc1400_POGO_I_C
+0074 [PG+] VS2005 (8.0)           # prodidUtc1400_POGO_I_CPP
+0075 [POC] VS2005 (8.0)           # prodidUtc1400_POGO_O_C
+0076 [PO+] VS2005 (8.0)           # prodidUtc1400_POGO_O_CPP
+0077 [PGD] VS2005 (8.0)           # prodidCvtpgd1400
+0078 [LNK] VS2005 (8.0)           # prodidLinker800
+0079 [OMF] VS2005 (8.0)           # prodidCvtomf800
+007a [EXP] VS2005 (8.0)           # prodidExport800
+007b [IMP] VS2005 (8.0)           # prodidImplib800
+007c [RES] VS2005 (8.0)           # prodidCvtres800
+007d [ASM] VS2005 (8.0)           # prodidMasm800
+007e [AOb] VS2005 (8.0)           # prodidAliasObj800
+007f [---] Phoenix Prerelease     # prodidPhoenixPrerelease
+0080 [CIL] VS2005 (8.0)           # prodidUtc1400_CVTCIL_C
+0081 [CI+] VS2005 (8.0)           # prodidUtc1400_CVTCIL_CPP
+0082 [LTM] VS2005 (8.0)           # prodidUtc1400_LTCG_MSIL
+0083 [ C ] VS2008 (9.0)           # prodidUtc1500_C
+0084 [CPP] VS2008 (9.0)           # prodidUtc1500_CPP
+0085 [C S] VS2008 (9.0)           # prodidUtc1500_C_Std
+0086 [C+S] VS2008 (9.0)           # prodidUtc1500_CPP_Std
+0087 [CIL] VS2008 (9.0)           # prodidUtc1500_CVTCIL_C
+0088 [CI+] VS2008 (9.0)           # prodidUtc1500_CVTCIL_CPP
+0089 [LTC] VS2008 (9.0)           # prodidUtc1500_LTCG_C
+008a [LT+] VS2008 (9.0)           # prodidUtc1500_LTCG_CPP
+008b [LTM] VS2008 (9.0)           # prodidUtc1500_LTCG_MSIL
+008c [PGO] VS2008 (9.0)           # prodidUtc1500_POGO_I_C
+008d [PG+] VS2008 (9.0)           # prodidUtc1500_POGO_I_CPP
+008e [POC] VS2008 (9.0)           # prodidUtc1500_POGO_O_C
+008f [PO+] VS2008 (9.0)           # prodidUtc1500_POGO_O_CPP
+0090 [PGD] VS2008 (9.0)           # prodidCvtpgd1500
+0091 [LNK] VS2008 (9.0)           # prodidLinker900
+0092 [EXP] VS2008 (9.0)           # prodidExport900
+0093 [IMP] VS2008 (9.0)           # prodidImplib900
+0094 [RES] VS2008 (9.0)           # prodidCvtres900
+0095 [ASM] VS2008 (9.0)           # prodidMasm900
+0096 [AOb] VS2008 (9.0)           # prodidAliasObj900
+0097 [---] Resource               # prodidResource
+0098 [AOb] VS2010 (10.0)          # prodidAliasObj1000
+0099 [PGD] VS2010 (10.0)          # prodidCvtpgd1600
+009a [RES] VS2010 (10.0)          # prodidCvtres1000
+009b [EXP] VS2010 (10.0)          # prodidExport1000
+009c [IMP] VS2010 (10.0)          # prodidImplib1000
+009d [LNK] VS2010 (10.0)          # prodidLinker1000
+009e [ASM] VS2010 (10.0)          # prodidMasm1000
+009f [ C ] Phoenix (10.0)         # prodidPhx1600_C
+00a0 [CPP] Phoenix (10.0)         # prodidPhx1600_CPP
+00a1 [CIL] Phoenix (10.0)         # prodidPhx1600_CVTCIL_C
+00a2 [CI+] Phoenix (10.0)         # prodidPhx1600_CVTCIL_CPP
+00a3 [LTC] Phoenix (10.0)         # prodidPhx1600_LTCG_C
+00a4 [LT+] Phoenix (10.0)         # prodidPhx1600_LTCG_CPP
+00a5 [LTM] Phoenix (10.0)         # prodidPhx1600_LTCG_MSIL
+00a6 [PGO] Phoenix (10.0)         # prodidPhx1600_POGO_I_C
+00a7 [PG+] Phoenix (10.0)         # prodidPhx1600_POGO_I_CPP
+00a8 [POC] Phoenix (10.0)         # prodidPhx1600_POGO_O_C
+00a9 [PO+] Phoenix (10.0)         # prodidPhx1600_POGO_O_CPP
+00aa [ C ] VS2010 (10.0)          # prodidUtc1600_C
+00ab [CPP] VS2010 (10.0)          # prodidUtc1600_CPP
+00ac [CIL] VS2010 (10.0)          # prodidUtc1600_CVTCIL_C
+00ad [CI+] VS2010 (10.0)          # prodidUtc1600_CVTCIL_CPP
+00ae [LTC] VS2010 (10.0)          # prodidUtc1600_LTCG_C
+00af [LT+] VS2010 (10.0)          # prodidUtc1600_LTCG_CPP
+00b0 [LTM] VS2010 (10.0)          # prodidUtc1600_LTCG_MSIL
+00b1 [PGO] VS2010 (10.0)          # prodidUtc1600_POGO_I_C
+00b2 [PG+] VS2010 (10.0)          # prodidUtc1600_POGO_I_CPP
+00b3 [POC] VS2010 (10.0)          # prodidUtc1600_POGO_O_C
+00b4 [PO+] VS2010 (10.0)          # prodidUtc1600_POGO_O_CPP
+00b5 [AOb] VS2010 (10.10)         # prodidAliasObj1010
+00b6 [PGD] VS2010 (10.10)         # prodidCvtpgd1610
+00b7 [RES] VS2010 (10.10)         # prodidCvtres1010
+00b8 [EXP] VS2010 (10.10)         # prodidExport1010
+00b9 [IMP] VS2010 (10.10)         # prodidImplib1010
+00ba [LNK] VS2010 (10.10)         # prodidLinker1010
+00bb [ASM] VS2010 (10.10)         # prodidMasm1010
+00bc [ C ] VS2010 (10.10)         # prodidUtc1610_C
+00bd [CPP] VS2010 (10.10)         # prodidUtc1610_CPP
+00be [CIL] VS2010 (10.10)         # prodidUtc1610_CVTCIL_C
+00bf [CI+] VS2010 (10.10)         # prodidUtc1610_CVTCIL_CPP
+00c0 [LTC] VS2010 (10.10)         # prodidUtc1610_LTCG_C
+00c1 [LT+] VS2010 (10.10)         # prodidUtc1610_LTCG_CPP
+00c2 [LTM] VS2010 (10.10)         # prodidUtc1610_LTCG_MSIL
+00c3 [PGO] VS2010 (10.10)         # prodidUtc1610_POGO_I_C
+00c4 [PG+] VS2010 (10.10)         # prodidUtc1610_POGO_I_CPP
+00c5 [POC] VS2010 (10.10)         # prodidUtc1610_POGO_O_C
+00c6 [PO+] VS2010 (10.10)         # prodidUtc1610_POGO_O_CPP
+00c7 [AOb] VS2012 (11.0)          # prodidAliasObj1100
+00c8 [PGD] VS2012 (11.0)          # prodidCvtpgd1700
+00c9 [RES] VS2012 (11.0)          # prodidCvtres1100
+00ca [EXP] VS2012 (11.0)          # prodidExport1100
+00cb [IMP] VS2012 (11.0)          # prodidImplib1100
+00cc [LNK] VS2012 (11.0)          # prodidLinker1100
+00cd [ASM] VS2012 (11.0)          # prodidMasm1100
+00ce [ C ] VS2012 (11.0)          # prodidUtc1700_C
+00cf [CPP] VS2012 (11.0)          # prodidUtc1700_CPP
+00d0 [CIL] VS2012 (11.0)          # prodidUtc1700_CVTCIL_C
+00d1 [CI+] VS2012 (11.0)          # prodidUtc1700_CVTCIL_CPP
+00d2 [LTC] VS2012 (11.0)          # prodidUtc1700_LTCG_C
+00d3 [LT+] VS2012 (11.0)          # prodidUtc1700_LTCG_CPP
+00d4 [LTM] VS2012 (11.0)          # prodidUtc1700_LTCG_MSIL
+00d5 [PGO] VS2012 (11.0)          # prodidUtc1700_POGO_I_C
+00d6 [PG+] VS2012 (11.0)          # prodidUtc1700_POGO_I_CPP
+00d7 [POC] VS2012 (11.0)          # prodidUtc1700_POGO_O_C
+00d8 [PO+] VS2012 (11.0)          # prodidUtc1700_POGO_O_CPP
+00d9 [AOb] VS2013 (12.0)          # prodidAliasObj1200
+00da [PGD] VS2013 (12.0)          # prodidCvtpgd1800
+00db [RES] VS2013 (12.0)          # prodidCvtres1200
+00dc [EXP] VS2013 (12.0)          # prodidExport1200
+00dd [IMP] VS2013 (12.0)          # prodidImplib1200
+00de [LNK] VS2013 (12.0)          # prodidLinker1200
+00df [ASM] VS2013 (12.0)          # prodidMasm1200
+00e0 [ C ] VS2013 (12.0)          # prodidUtc1800_C
+00e1 [CPP] VS2013 (12.0)          # prodidUtc1800_CPP
+00e2 [CIL] VS2013 (12.0)          # prodidUtc1800_CVTCIL_C
+00e3 [CI+] VS2013 (12.0)          # prodidUtc1800_CVTCIL_CPP
+00e4 [LTC] VS2013 (12.0)          # prodidUtc1800_LTCG_C
+00e5 [LT+] VS2013 (12.0)          # prodidUtc1800_LTCG_CPP
+00e6 [LTM] VS2013 (12.0)          # prodidUtc1800_LTCG_MSIL
+00e7 [PGO] VS2013 (12.0)          # prodidUtc1800_POGO_I_C
+00e8 [PG+] VS2013 (12.0)          # prodidUtc1800_POGO_I_CPP
+00e9 [POC] VS2013 (12.0)          # prodidUtc1800_POGO_O_C
+00ea [PO+] VS2013 (12.0)          # prodidUtc1800_POGO_O_CPP
+00eb [AOb] VS2013 (12.10)         # prodidAliasObj1210
+00ec [PGD] VS2013 (12.10)         # prodidCvtpgd1810
+00ed [RES] VS2013 (12.10)         # prodidCvtres1210
+00ee [EXP] VS2013 (12.10)         # prodidExport1210
+00ef [IMP] VS2013 (12.10)         # prodidImplib1210
+00f0 [LNK] VS2013 (12.10)         # prodidLinker1210
+00f1 [ASM] VS2013 (12.10)         # prodidMasm1210
+00f2 [ C ] VS2013 (12.10)         # prodidUtc1810_C
+00f3 [CPP] VS2013 (12.10)         # prodidUtc1810_CPP
+00f4 [CIL] VS2013 (12.10)         # prodidUtc1810_CVTCIL_C
+00f5 [CI+] VS2013 (12.10)         # prodidUtc1810_CVTCIL_CPP
+00f6 [LTC] VS2013 (12.10)         # prodidUtc1810_LTCG_C
+00f7 [LT+] VS2013 (12.10)         # prodidUtc1810_LTCG_CPP
+00f8 [LTM] VS2013 (12.10)         # prodidUtc1810_LTCG_MSIL
+00f9 [PGO] VS2013 (12.10)         # prodidUtc1810_POGO_I_C
+00fa [PG+] VS2013 (12.10)         # prodidUtc1810_POGO_I_CPP
+00fb [POC] VS2013 (12.10)         # prodidUtc1810_POGO_O_C
+00fc [PO+] VS2013 (12.10)         # prodidUtc1810_POGO_O_CPP
+00fd [AOb] VS2015+ (14.0+)        # prodidAliasObj1400
+00fe [PGD] VS2015+ (14.0+)        # prodidCvtpgd1900
+00ff [RES] VS2015+ (14.0+)        # prodidCvtres1400
+0100 [EXP] VS2015+ (14.0+)        # prodidExport1400
+0101 [IMP] VS2015+ (14.0+)        # prodidImplib1400
+0102 [LNK] VS2015+ (14.0+)        # prodidLinker1400
+0103 [ASM] VS2015+ (14.0+)        # prodidMasm1400
+0104 [ C ] VS2015+ (14.0+)        # prodidUtc1900_C
+0105 [CPP] VS2015+ (14.0+)        # prodidUtc1900_CPP
+0106 [CIL] VS2015+ (14.0+)        # prodidUtc1900_CVTCIL_C
+0107 [CI+] VS2015+ (14.0+)        # prodidUtc1900_CVTCIL_CPP
+0108 [LTC] VS2015+ (14.0+)        # prodidUtc1900_LTCG_C
+0109 [LT+] VS2015+ (14.0+)        # prodidUtc1900_LTCG_CPP
+010a [LTM] VS2015+ (14.0+)        # prodidUtc1900_LTCG_MSIL
+010b [PGO] VS2015+ (14.0+)        # prodidUtc1900_POGO_I_C
+010c [PG+] VS2015+ (14.0+)        # prodidUtc1900_POGO_I_CPP
+010d [POC] VS2015+ (14.0+)        # prodidUtc1900_POGO_O_C
+010e [PO+] VS2015+ (14.0+)        # prodidUtc1900_POGO_O_CPP
