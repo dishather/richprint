@@ -145,6 +145,10 @@ void decodeRichheader(
 
         // any description?
         StrMap::const_iterator i = descriptions.find( ver );
+        if( i == descriptions.end() )
+        {
+            i = descriptions.find( id );
+        }
         if( i != descriptions.end() )
         {
             cout << ' ' << (*i).second;
@@ -287,6 +291,13 @@ void loadDescriptions( char const *fname, StrMap &descriptions )
     {
         string str;
         getline( file, str );
+        string::size_type cmt = str.rfind( '#' );
+        if( cmt != string::npos )
+        {
+            while( cmt > 0 && str[cmt-1] == ' ' )
+                --cmt;
+            str.erase( cmt );
+        }
         if( str.length() > 8 && str[0] != '#' )
         {
             istringstream is( str );
