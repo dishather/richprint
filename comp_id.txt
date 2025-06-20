@@ -3465,14 +3465,14 @@
 010d59f2 [POC] VS2015 [14.0] build 23026 (*)
 010e59f2 [PO+] VS2015 [14.0] build 23026 (*)
 
-# Visual Studio 2013 Nobemver CTP [12.0] (values are interpolated)
-00e0527a [ C ] VS2013 Nobemver CTP [12.0] build 21114 (*)
-00df527a [ASM] VS2013 Nobemver CTP [12.0] build 21114 (*)
-00e1527a [C++] VS2013 Nobemver CTP [12.0] build 21114 (*)
-00db527a [RES] VS2013 Nobemver CTP [12.0] build 21114 (*)
-00de527a [LNK] VS2013 Nobemver CTP [12.0] build 21114 (*)
-00dd527a [IMP] VS2013 Nobemver CTP [12.0] build 21114 (*)
-00dc527a [EXP] VS2013 Nobemver CTP [12.0] build 21114 (*)
+# Visual Studio 2013 November CTP [12.0] (values are interpolated)
+00e0527a [ C ] VS2013 November CTP [12.0] build 21114 (*)
+00df527a [ASM] VS2013 November CTP [12.0] build 21114 (*)
+00e1527a [C++] VS2013 November CTP [12.0] build 21114 (*)
+00db527a [RES] VS2013 November CTP [12.0] build 21114 (*)
+00de527a [LNK] VS2013 November CTP [12.0] build 21114 (*)
+00dd527a [IMP] VS2013 November CTP [12.0] build 21114 (*)
+00dc527a [EXP] VS2013 November CTP [12.0] build 21114 (*)
 
 # MSVS2013 12.0.40629.00 Update 5
 00e09eb5 [ C ] VS2013 UPD5 build 40629
