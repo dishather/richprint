@@ -35,7 +35,29 @@
 00fe0000 [---] CVTPGD
 00fe0001 [---] CVTPGD
 
+# MSVS2026 v18.0.0-insiders
+01048aaf [ C ] VS2026 v18.0.0 Insiders build 35503
+01038aaf [ASM] VS2026 v18.0.0 Insiders build 35503
+01058aaf [C++] VS2026 v18.0.0 Insiders build 35503
+00ff8aaf [RES] VS2026 v18.0.0 Insiders build 35503
+01028aaf [LNK] VS2026 v18.0.0 Insiders build 35503
+01008aaf [EXP] VS2026 v18.0.0 Insiders build 35503
+01018aaf [IMP] VS2026 v18.0.0 Insiders build 35503
+01088aaf [LTC] VS2026 v18.0.0 Insiders build 35503
+01098aaf [LT+] VS2026 v18.0.0 Insiders build 35503
+010b8aaf [PGO] VS2026 v18.0.0 Insiders build 35503
+010c8aaf [PG+] VS2026 v18.0.0 Insiders build 35503
+01068aaf [CIL] VS2026 v18.0.0 Insiders build 35503 (*)
+01078aaf [CI+] VS2026 v18.0.0 Insiders build 35503 (*)
+010a8aaf [LTM] VS2026 v18.0.0 Insiders build 35503 (*)
+010d8aaf [POC] VS2026 v18.0.0 Insiders build 35503 (*)
+010e8aaf [PO+] VS2026 v18.0.0 Insiders build 35503 (*)
+
+
 # MSVS2022 v17.14.15
+# MSVS2022 v17.14.15-pre.1.0
+# MSVS2022 v17.14.16-pre.1.0
+# MSVS2022 v17.14.16
 01048991 [ C ] VS2022 v17.14.15 build 35217
 01038991 [ASM] VS2022 v17.14.15 build 35217
 01058991 [C++] VS2022 v17.14.15 build 35217
