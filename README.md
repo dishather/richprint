@@ -73,3 +73,7 @@ Also, Rich Headers can allegedly be used in forensics.
 Yes you can. Provide this undocumented option to the linker: `/emittoolversioninfo:no`.
 
 Thanks to [Oliver Schneider](https://github.com/assarbad) for pointing this out.
+
+This otherwise-undocumented flag was added per
+[this request](https://developercommunity.visualstudio.com/t/add-linker-option-to-strip-rich-stamp-from-exe-hea/740443),
+and has been available since VS2019 Update 11. Thanks to [Kevin Puetz](https://github.com/puetzk) for the link.
