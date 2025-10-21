@@ -36,6 +36,60 @@
 00fe0001 [---] CVTPGD
 
 # MSVS2026 v18.0.0-insiders
+01048b7e [ C ] VS2026 v18.0.0 Insiders build 35710
+01038b7e [ASM] VS2026 v18.0.0 Insiders build 35710
+01058b7e [C++] VS2026 v18.0.0 Insiders build 35710
+00ff8b7e [RES] VS2026 v18.0.0 Insiders build 35710
+01028b7e [LNK] VS2026 v18.0.0 Insiders build 35710
+01008b7e [EXP] VS2026 v18.0.0 Insiders build 35710
+01018b7e [IMP] VS2026 v18.0.0 Insiders build 35710
+01088b7e [LTC] VS2026 v18.0.0 Insiders build 35710
+01098b7e [LT+] VS2026 v18.0.0 Insiders build 35710
+010b8b7e [PGO] VS2026 v18.0.0 Insiders build 35710
+010c8b7e [PG+] VS2026 v18.0.0 Insiders build 35710
+01068b7e [CIL] VS2026 v18.0.0 Insiders build 35710 (*)
+01078b7e [CI+] VS2026 v18.0.0 Insiders build 35710 (*)
+010a8b7e [LTM] VS2026 v18.0.0 Insiders build 35710 (*)
+010d8b7e [POC] VS2026 v18.0.0 Insiders build 35710 (*)
+010e8b7e [PO+] VS2026 v18.0.0 Insiders build 35710 (*)
+
+# MSVS2026 v18.0.0-insiders
+01048b76 [ C ] VS2026 v18.0.0 Insiders build 35702
+01038b76 [ASM] VS2026 v18.0.0 Insiders build 35702
+01058b76 [C++] VS2026 v18.0.0 Insiders build 35702
+00ff8b76 [RES] VS2026 v18.0.0 Insiders build 35702
+01028b76 [LNK] VS2026 v18.0.0 Insiders build 35702
+01008b76 [EXP] VS2026 v18.0.0 Insiders build 35702
+01018b76 [IMP] VS2026 v18.0.0 Insiders build 35702
+01088b76 [LTC] VS2026 v18.0.0 Insiders build 35702
+01098b76 [LT+] VS2026 v18.0.0 Insiders build 35702
+010b8b76 [PGO] VS2026 v18.0.0 Insiders build 35702
+010c8b76 [PG+] VS2026 v18.0.0 Insiders build 35702
+01068b76 [CIL] VS2026 v18.0.0 Insiders build 35702 (*)
+01078b76 [CI+] VS2026 v18.0.0 Insiders build 35702 (*)
+010a8b76 [LTM] VS2026 v18.0.0 Insiders build 35702 (*)
+010d8b76 [POC] VS2026 v18.0.0 Insiders build 35702 (*)
+010e8b76 [PO+] VS2026 v18.0.0 Insiders build 35702 (*)
+
+# MSVS2026 v18.0.0-insiders
+01048b1f [ C ] VS2026 v18.0.0 Insiders build 35615
+01038b1f [ASM] VS2026 v18.0.0 Insiders build 35615
+01058b1f [C++] VS2026 v18.0.0 Insiders build 35615
+00ff8b1f [RES] VS2026 v18.0.0 Insiders build 35615
+01028b1f [LNK] VS2026 v18.0.0 Insiders build 35615
+01008b1f [EXP] VS2026 v18.0.0 Insiders build 35615
+01018b1f [IMP] VS2026 v18.0.0 Insiders build 35615
+01088b1f [LTC] VS2026 v18.0.0 Insiders build 35615
+01098b1f [LT+] VS2026 v18.0.0 Insiders build 35615
+010b8b1f [PGO] VS2026 v18.0.0 Insiders build 35615
+010c8b1f [PG+] VS2026 v18.0.0 Insiders build 35615
+01068b1f [CIL] VS2026 v18.0.0 Insiders build 35615 (*)
+01078b1f [CI+] VS2026 v18.0.0 Insiders build 35615 (*)
+010a8b1f [LTM] VS2026 v18.0.0 Insiders build 35615 (*)
+010d8b1f [POC] VS2026 v18.0.0 Insiders build 35615 (*)
+010e8b1f [PO+] VS2026 v18.0.0 Insiders build 35615 (*)
+
+# MSVS2026 v18.0.0-insiders
 01048aaf [ C ] VS2026 v18.0.0 Insiders build 35503
 01038aaf [ASM] VS2026 v18.0.0 Insiders build 35503
 01058aaf [C++] VS2026 v18.0.0 Insiders build 35503
@@ -53,11 +107,30 @@
 010d8aaf [POC] VS2026 v18.0.0 Insiders build 35503 (*)
 010e8aaf [PO+] VS2026 v18.0.0 Insiders build 35503 (*)
 
+# MSVS2022 v17.14.18
+01048993 [ C ] VS2022 v17.14.18 build 35219
+01038993 [ASM] VS2022 v17.14.18 build 35219
+01058993 [C++] VS2022 v17.14.18 build 35219
+00ff8993 [RES] VS2022 v17.14.18 build 35219
+01028993 [LNK] VS2022 v17.14.18 build 35219
+01008993 [EXP] VS2022 v17.14.18 build 35219
+01018993 [IMP] VS2022 v17.14.18 build 35219
+01088993 [LTC] VS2022 v17.14.18 build 35219
+01098993 [LT+] VS2022 v17.14.18 build 35219
+010b8993 [PGO] VS2022 v17.14.18 build 35219
+010c8993 [PG+] VS2022 v17.14.18 build 35219
+01068993 [CIL] VS2022 v17.14.18 build 35219 (*)
+01078993 [CI+] VS2022 v17.14.18 build 35219 (*)
+010a8993 [LTM] VS2022 v17.14.18 build 35219 (*)
+010d8993 [POC] VS2022 v17.14.18 build 35219 (*)
+010e8993 [PO+] VS2022 v17.14.18 build 35219 (*)
 
 # MSVS2022 v17.14.15
 # MSVS2022 v17.14.15-pre.1.0
 # MSVS2022 v17.14.16-pre.1.0
 # MSVS2022 v17.14.16
+# MSVS2022 v17.14.17-pre.1.0
+# MSVS2022 v17.14.17
 01048991 [ C ] VS2022 v17.14.15 build 35217
 01038991 [ASM] VS2022 v17.14.15 build 35217
 01058991 [C++] VS2022 v17.14.15 build 35217
