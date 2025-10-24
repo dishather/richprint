@@ -36,6 +36,24 @@
 00fe0001 [---] CVTPGD
 
 # MSVS2026 v18.0.0-insiders
+01048b85 [ C ] VS2026 v18.0.0 Insiders build 35717
+01038b85 [ASM] VS2026 v18.0.0 Insiders build 35717
+01058b85 [C++] VS2026 v18.0.0 Insiders build 35717
+00ff8b85 [RES] VS2026 v18.0.0 Insiders build 35717
+01028b85 [LNK] VS2026 v18.0.0 Insiders build 35717
+01008b85 [EXP] VS2026 v18.0.0 Insiders build 35717
+01018b85 [IMP] VS2026 v18.0.0 Insiders build 35717
+01088b85 [LTC] VS2026 v18.0.0 Insiders build 35717
+01098b85 [LT+] VS2026 v18.0.0 Insiders build 35717
+010b8b85 [PGO] VS2026 v18.0.0 Insiders build 35717
+010c8b85 [PG+] VS2026 v18.0.0 Insiders build 35717
+01068b85 [CIL] VS2026 v18.0.0 Insiders build 35717 (*)
+01078b85 [CI+] VS2026 v18.0.0 Insiders build 35717 (*)
+010a8b85 [LTM] VS2026 v18.0.0 Insiders build 35717 (*)
+010d8b85 [POC] VS2026 v18.0.0 Insiders build 35717 (*)
+010e8b85 [PO+] VS2026 v18.0.0 Insiders build 35717 (*)
+
+# MSVS2026 v18.0.0-insiders
 01048b7e [ C ] VS2026 v18.0.0 Insiders build 35710
 01038b7e [ASM] VS2026 v18.0.0 Insiders build 35710
 01058b7e [C++] VS2026 v18.0.0 Insiders build 35710
@@ -2137,6 +2155,7 @@
 # MSVS2019 v16.11.49
 # MSVS2019 v16.11.50
 # MSVS2019 v16.11.51
+# MSVS2019 v16.11.52
 010475cf [ C ] VS2019 v16.11.45 build 30159
 010375cf [ASM] VS2019 v16.11.45 build 30159
 010575cf [C++] VS2019 v16.11.45 build 30159
