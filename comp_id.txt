@@ -35,6 +35,24 @@
 00fe0000 [---] CVTPGD
 00fe0001 [---] CVTPGD
 
+# MSVS2026 v18.3.0-insiders+11222.16
+01048b87 [ C ] VS2026 v18.3.0 Insiders [11222.16] build 35719
+01038b87 [ASM] VS2026 v18.3.0 Insiders [11222.16] build 35719
+01058b87 [C++] VS2026 v18.3.0 Insiders [11222.16] build 35719
+00ff8b87 [RES] VS2026 v18.3.0 Insiders [11222.16] build 35719
+01028b87 [LNK] VS2026 v18.3.0 Insiders [11222.16] build 35719
+01008b87 [EXP] VS2026 v18.3.0 Insiders [11222.16] build 35719
+01018b87 [IMP] VS2026 v18.3.0 Insiders [11222.16] build 35719
+01088b87 [LTC] VS2026 v18.3.0 Insiders [11222.16] build 35719
+01098b87 [LT+] VS2026 v18.3.0 Insiders [11222.16] build 35719
+010b8b87 [PGO] VS2026 v18.3.0 Insiders [11222.16] build 35719
+010c8b87 [PG+] VS2026 v18.3.0 Insiders [11222.16] build 35719
+01068b87 [CIL] VS2026 v18.3.0 Insiders [11222.16] build 35719 (*)
+01078b87 [CI+] VS2026 v18.3.0 Insiders [11222.16] build 35719 (*)
+010a8b87 [LTM] VS2026 v18.3.0 Insiders [11222.16] build 35719 (*)
+010d8b87 [POC] VS2026 v18.3.0 Insiders [11222.16] build 35719 (*)
+010e8b87 [PO+] VS2026 v18.3.0 Insiders [11222.16] build 35719 (*)
+
 # MSVS2026 v18.3.0-insiders+11218.70
 01048b86 [ C ] VS2026 v18.3.0 Insiders [11218.70] build 35718
 01038b86 [ASM] VS2026 v18.3.0 Insiders [11218.70] build 35718
