@@ -36,6 +36,7 @@
 00fe0001 [---] CVTPGD
 
 # MSVS2026 v18.2.1
+# MSVS2026 v18.3.0-insiders+11415.281
 01048b8b [ C ] VS2026 v18.2.1 build 35723
 01038b8b [ASM] VS2026 v18.2.1 build 35723
 01058b8b [C++] VS2026 v18.2.1 build 35723
@@ -4178,6 +4179,87 @@
 000b1fe8 [C++] VS98 (6.0) build 8168
 000606b8 [RES] VS98 (6.0) cvtres build 1720
 00041fe8 [LNK] VS98 (6.0) imp/exp build 8168
+
+########## assorted versions (mostly VS6) by Toms (https://github.com/tomsons26)
+#Known released VS6 versions
+# 000a1fe8 [ C ] VS6 build 8168
+# 000b1fe8 [C++] VS6 build 8168
+000a20ff [ C ] VS6 SP3 build 8447
+000b20ff [C++] VS6 SP3 build 8447
+000a225f [ C ] VS6 SP4 build 8799
+000b225f [C++] VS6 SP4 build 8799
+000a2306 [ C ] VS6 SP5 build 8966
+000b2306 [C++] VS6 SP5 build 8966
+# 000a2636 [ C ] VS6 SP6 build 9782
+# 000b2636 [C++] VS6 SP6 build 9782
+
+#VS6 with Processor Pack
+003022ac [ C ] VS6 SP4 PP Beta build 8876
+003122ac [C++] VS6 SP4 PP Beta build 8876
+003022ef [ C ] VS6 SP4 PP build 8943
+003122ef [C++] VS6 SP4 PP build 8943
+00302354 [ C ] VS6 SP5 PP build 9044
+00312354 [C++] VS6 SP5 PP build 9044
+
+#VS6 pre-release versions
+000a1fcd [ C ] VS6 Enterprise RC build 8141
+000b1fcd [C++] VS6 Enterprise RC build 8141
+# [ C ] VS6 SP4 Beta build 8793
+# [C++] VS6 SP4 Beta build 8793
+
+#VS6 book versions
+00171fe8 [C B] VS6 build 8168
+00181fe8 [C+B] VS6 build 8168
+
+#strange VS versions, only in libs?
+000a1f6f [ C ] VS6? (Likely Libs) build 8047
+000b1f6f [C++] VS6? (Likely Libs) build 8047
+000a2179 [ C ] VS6? (Likely Libs) build 8569
+000b2179 [C++] VS6? (Likely Libs) build 8569
+000a225d [ C ] VS6? (Likely Libs) build 8797
+000b225d [C++] VS6? (Likely Libs) build 8797
+000a225e [ C ] VS6? (Likely Libs) build 8798
+000b225e [C++] VS6? (Likely Libs) build 8798
+
+001c227e [ C ] VS2002 ? (Likely Libs) build 8830
+001d227e [C++] VS2002 ? (Likely Libs) build 8830
+
+#VS2002 XP SP1 DDK version
+001c23da [ C ] VS2002 XP SP1 DDK build 9178
+001d23da [C++] VS2002 XP SP1 DDK build 9178
+
+#tools
+# 000606b8 [RES] VS6 build 1720
+# 000606c7 [RES] VS6 (SP3 or greater) build 1735
+
+#internal tools
+000c1c7b [AOb] build 7291 (VS6 OLDNAMES.LIB)
+
+#MASM
+000e1c83 [ASM] MASM 6.13 build 7299
+001220fc [ASM] MASM 6.14 build 8444
+002a2263 [ASM] MASM 6.15 build 8803
+
+#VS6 Linker
+# 00041fe8 [LNK] VS6 build 8168
+# 000420ff [LNK] VS6 (SP3 or greater) build 8447
+000520ff [OMF] VS6 (SP3 or greater) build 8447
+
+#VS Linkers only in libs?
+
+00131f56 [LNK] 5.12 build 8022 (Likely Libs) (OLEAUT32.LIB)
+00131f62 [LNK] 5.12 build 8034 (Likely Libs)
+00132359 [LNK] 5.12 build 9049 (Likely Libs)
+
+00041f6f [LNK] VS6 build 8047 (Likely Libs)
+00042179 [LNK] VS6 ? build 8569 (Likely Libs)
+00042636 [LNK] VS6 SP6 build 9782 (Likely Libs)
+
+00252233 [LNK] 6.20 build 8755 (Likely Libs)
+
+001923fa [IMP] VS2002 build 9210 (Import library)
+
+####### end assorted versions
 
 # MSVS97 5.0 Enterprise Edition (cl 11.00.7022, link 5.00.7022)
 # Does NOT generate any @comp.id records, nor Rich headers.
